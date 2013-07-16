@@ -2,11 +2,14 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-07-13 21:13:39
-categories: jekyll update
+categories: Tech
+tags: hello-world
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+
+<!--more-->
 
 Jekyll also offers powerful support for code snippets:
 
