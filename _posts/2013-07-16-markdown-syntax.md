@@ -8,6 +8,7 @@ tags: Markdown
 
 （这份文档拷贝自：[http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)。作为一篇博客放在这里主要是为了方面写作时参考。）
 
+<!--more-->
 Markdown: Syntax
 ================
 
