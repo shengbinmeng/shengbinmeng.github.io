@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  使用Jekyll和Github Pages搭建静态博客网站
+title:  使用Jekyll和GitHub Pages搭建静态博客网站
 date:   2013-07-16 00:00:01
 categories: Tech
 tags: [Web, Jekyll, Markdown]
 ---
 
-这个网站（[Shengbin's Blog](http://blog.shengbin.me)）是采用Jekyll和Github Pages搭建的。Github Pages可以免费提供静态页面的托管服务，其后台由Jekyll支持。关于如何建立站点，网上能找到很多说明。
+这个网站（[Shengbin's Blog](http://blog.shengbin.me)）是采用Jekyll和GitHub Pages搭建的。GitHub Pages可以免费提供静态页面的托管服务，其后台由Jekyll支持。关于如何建立站点，网上能找到很多说明。
 这里主要归纳一下Jekyll是如何工作的。
 
 <!--more-->
