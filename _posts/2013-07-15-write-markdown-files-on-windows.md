@@ -2,7 +2,7 @@
 layout: post
 title:  "在Windows下使用Notepad++编写Markdown文件"
 date:   2013-07-15 12:34:56
-categories: Tech
+categories: 技术
 tags: [Markdown, Windows]
 ---
 

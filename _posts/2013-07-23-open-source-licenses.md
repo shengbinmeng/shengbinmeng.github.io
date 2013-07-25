@@ -2,7 +2,7 @@
 layout: post
 title: "开源软件的协议"
 date: 2013-07-23 13:00:01
-category: Tech
+category: 技术
 tags: [Open Source, Linux]
 ---
 {% include JB/setup %}

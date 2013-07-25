@@ -2,8 +2,8 @@
 layout: post
 title: "三国杀武将台词"
 date: 2013-07-24 00:00:01
-category: Entertainment
-tags: [三国杀, 台词]
+category: 娱乐
+tags: [三国杀]
 ---
 {% include JB/setup %}
 

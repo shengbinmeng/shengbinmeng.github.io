@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-07-13 21:13:39
-categories: Tech
+categories: 技术
 tags: [Web, Jekyll]
 ---
 

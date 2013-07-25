@@ -2,7 +2,7 @@
 layout: post
 title:  Markdown语法
 date:   2013-07-16 00:00:00
-categories: Tech
+categories: 技术
 tags: Markdown
 ---
 
