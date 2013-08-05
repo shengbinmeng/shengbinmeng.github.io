@@ -70,12 +70,16 @@ Linux下同样有检测当前进程是否正在被调试的需求。我最终从
 
         int has_gdb = (strstr(buff2, "gdb") || strstr(buff2, "ltrace") || strstr(buff2, "strace"));
         if (has_gdb == 0) {
-	        printf("no debugger is attached\n");
+	    printf("no debugger is attached\n");
         } else {
             printf("debugger attached!\n");
         }
         return has_gdb;
     }
     
-这个方法简单直接。
+这个方法简单直接。首先获得当前程序父进程的id（getppid），然后借此读取父进程的状态，获得其名称。
+在Linux下，调试器一般是gdb，即使不用gdb，也要用ltrace或strace这些trace工具。因此，我们通过搜索当前程序的
+父进程名称中含不含有上述这些字符串，就可以判断是否是被调试器启动的。这个方法对于采用其他调试器的情况可能会失效。
+但考虑到gdb的广泛性，失效的可能性很小。
 
+我最终采取了第三种方法。
