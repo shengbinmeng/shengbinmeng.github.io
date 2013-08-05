@@ -10,7 +10,7 @@ tags: [Linux, gdb]
 
 在Windows下，程序可以用以下API函数检测当前进程是否正在被调试：
     HANDLE process = GetCurrentProcess();
-	CheckRemoteDebuggerPresent(process, &is_debugging);
+    CheckRemoteDebuggerPresent(process, &is_debugging);
 但是在Linux下如何实现呢？
 
 <!--more-->
