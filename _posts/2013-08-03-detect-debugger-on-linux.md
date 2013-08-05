@@ -60,7 +60,7 @@ Linux下同样有检测当前进程是否正在被调试的需求。我最终从
 
 ####方法三
 
-    int is_debugger_attached() 
+    int has_debugger() 
     {
         char buff1[24], buff2[16];
         FILE* f;
@@ -73,7 +73,7 @@ Linux下同样有检测当前进程是否正在被调试的需求。我最终从
 
         int has_gdb = (strstr(buff2, "gdb") || strstr(buff2, "ltrace") || strstr(buff2, "strace"));
         if (has_gdb == 0) {
-	    printf("no debugger is attached\n");
+            printf("no debugger is attached\n");
         } else {
             printf("debugger attached!\n");
         }
