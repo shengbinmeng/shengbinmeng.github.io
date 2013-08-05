@@ -9,8 +9,10 @@ tags: [Linux, gdb]
 {% include JB/setup %}
 
 在Windows下，程序可以用以下API函数检测当前进程是否正在被调试：
+
     HANDLE process = GetCurrentProcess();
     CheckRemoteDebuggerPresent(process, &is_debugging);
+
 但是在Linux下如何实现呢？
 
 <!--more-->
@@ -35,13 +37,14 @@ Linux下同样有检测当前进程是否正在被调试的需求。我最终从
 该方法很不错，可惜存在一个问题，而且恰好在我的程序中出现了。如果程序P在执行上述代码后调用了另外一个进程（如使用了一个Shell命令），则在调用成功后会收到SIGTRAP信号；由于此时P已经请求过TRACEME，SIGTRAP将不被忽略，而是被默认处理。Linux下对SIGTRAP的默认处理是什么呢？好吧，简单地停止执行。于是我们的程序P就“假死”了。这显然是不应该发生的。我没有使用这个方法。
 
 ####方法二
+
     static int debugger_present = -1;
     static void sigtrap_handler(int signum)
     {
         debugger_present = 0;
         signal(SIGTRAP, SIG_IGN);
     }
-
+    
     int has_debugger(void)
     {
         if (-1 == debugger_present) {
