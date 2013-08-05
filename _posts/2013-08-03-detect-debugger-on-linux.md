@@ -3,15 +3,15 @@ layout: post
 title: Linux下程序如何检测自己是否正在被调试
 date: 2013-08-03 17:00:0
 category: 技术
-publish: no
 tags: [Linux, gdb, Programming]
 ---
 {% include JB/setup %}
 
 在Windows下，程序可以用以下API函数检测当前进程是否正在被调试：
 
+    int debugger_present;
     HANDLE process = GetCurrentProcess();
-    CheckRemoteDebuggerPresent(process, &is_debugging);
+    CheckRemoteDebuggerPresent(process, &debugger_present);
 
 但是在Linux下如何实现呢？
 
