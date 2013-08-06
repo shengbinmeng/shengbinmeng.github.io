@@ -45,7 +45,7 @@ Linux下同样有检测当前进程是否正在被调试的需求。我最终从
         signal(SIGTRAP, SIG_IGN);
     }
     
-    int has_debugger(void)
+    int has_debugger()
     {
         if (-1 == debugger_present) {
             debugger_present = 1;
