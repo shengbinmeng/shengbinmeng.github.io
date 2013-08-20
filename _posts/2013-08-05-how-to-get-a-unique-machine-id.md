@@ -7,8 +7,7 @@ tags: [Linux, Windows, Programming]
 ---
 {% include JB/setup %}
 
-获取唯一的机器码是采用密钥对软件进行保护的基础。一般来说，一台电脑的主要部件都会有一个序列号或是其他唯一的ID。
-唯一的机器码可以用这些ID组合变换得到。下面介绍在Windows下和在Linux下该如何做（当然重点会是Linux，毫无悬念：）。
+获取唯一的机器码是采用密钥对软件进行保护的基础。一般来说，一台电脑的主要部件都会有一个序列号或是其他唯一的ID，唯一的机器码可以用这些ID组合、变换（例如进行md5）得到。因此，获取唯一的机器码归结为如何获取机器主要部件的属性。下面介绍在Windows下和在Linux下该如何做（重点是Linux）。
 
 <!--more-->
 ####Windows
@@ -21,7 +20,7 @@ Linux下没有类似WMI那样由系统提供的查询接口，程序员们必须
 这个文件得到：
 
 	char buffer[128];
-    FILE *file = fopen("/sys/class/dmi/id/board_serial", "r");
+	FILE *file = fopen("/sys/class/dmi/id/board_serial", "r");
 	if (file != NULL) {
 		fgets(buffer, 128, file);
 	}
@@ -29,3 +28,8 @@ Linux下没有类似WMI那样由系统提供的查询接口，程序员们必须
 需要注意的是，不同的Linux发行版系统文件目录结构可能不完全一样，像上面那样直接读某个绝对路径可能会不成功。这就要分情况进行尝试了。
 而且不同的硬件类型对应的文件也不同，例如如果机器采用SATA的硬盘，则磁盘信息在`/dev/sda`中；如果是IDE硬盘，则是`/dev/hda`。
 
+Linux下有一个工具叫做dmidecode，在终端中执行它可以打印出机器硬件信息。在程序代码中，可以使用pipe来读取终端命令的结果，这就意味着能够通过dmidecode来获取某些机器属性。例如，读取以下命令的结果可以得到处理器ID：
+
+    sudo dmidecode 2>&1 -t 4 | grep ID:
+
+最后指出，上述Linux下获取硬件属性的方法大多需要root权限，这可能对某些程序来说比较尴尬，请自行权衡利弊。
