@@ -3,7 +3,7 @@ layout: post
 title: 像新手一样使用vi/vim
 date: 2013-07-27 18:00:0
 category: 技术
-tags: [Linux, vim]
+tags: [Linux, Vim]
 ---
 {% include JB/setup %}
 

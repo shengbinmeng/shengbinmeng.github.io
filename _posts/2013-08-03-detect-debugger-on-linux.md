@@ -3,7 +3,7 @@ layout: post
 title: Linux下程序如何检测自己是否正在被调试
 date: 2013-08-03 17:00:0
 category: 技术
-tags: [Linux, gdb, Programming]
+tags: [Linux, GDB, Programming]
 ---
 {% include JB/setup %}
 
