@@ -2,7 +2,7 @@
 layout: post
 title: "三国杀武将技能"
 date: 2013-07-23 23:00:00
-category: 娱乐
+category: 生活
 tags: [三国杀]
 ---
 {% include JB/setup %}
