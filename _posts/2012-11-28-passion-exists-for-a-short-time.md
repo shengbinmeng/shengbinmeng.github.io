@@ -3,7 +3,7 @@ layout: post
 title: 人的狂热也就在很短的一段时间
 date: 2012-11-28 00:00:01
 category: 生活
-tags: [未名]
+tags: [终将逝去的青春]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: 青春的我们
 date: 2012-02-11 11:11:11
 category: 生活
-tags: [青春]
+tags: [终将逝去的青春]
 ---
 {% include JB/setup %}
 

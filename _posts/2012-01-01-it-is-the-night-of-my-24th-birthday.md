@@ -3,7 +3,7 @@ layout: post
 title: 记于腊八生日夜
 date: 2012-01-01 23:00:00
 category: 生活
-tags: [青春]
+tags: [终将逝去的青春]
 ---
 {% include JB/setup %}
 
