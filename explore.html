@@ -6,14 +6,6 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<h2>Posts By Tag</h2>
-<ul class="tag_box inline">
-  {% assign tags_list = site.tags %}
-  {% include JB/tags_list %}
-</ul>
-<br>
-<hr>
-
 <h2>Posts By Category</h2>
 <ul class="tag_box inline">
   {% assign categories_list = site.categories %}
@@ -22,7 +14,15 @@ group: navigation
 <br>
 <hr>
 
-<h2>This Site</h2>
+<h2>Posts By Tag</h2>
+<ul class="tag_box inline">
+  {% assign tags_list = site.tags %}
+  {% include JB/tags_list %}
+</ul>
+<br>
+<hr>
+
+<h2>Pages On This Site</h2>
 <ul>
 <li><a href="/about.html">About</a></li>
 <li><a href="/archive.html">Archive</a></li>
