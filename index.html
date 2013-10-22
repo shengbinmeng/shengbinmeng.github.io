@@ -4,7 +4,6 @@ title: Shengbin's Blog
 ---
 
 <div class="row-fluid">
-    <div class="span12" display="none"></div>
   {% for post in paginator.posts %}
         {% capture summary %}{{post.content | split:'<!--more-->' |first }}{% endcapture%}
         <h2><a class="title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
