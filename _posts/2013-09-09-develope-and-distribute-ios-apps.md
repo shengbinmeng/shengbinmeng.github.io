@@ -3,7 +3,7 @@ layout: post
 title: 开发和分发iOS应用
 date: 2013-09-09 20:00:0
 category: 技术
-tags: [Mac, iOS]
+tags: [Xcode, iOS]
 ---
 {% include JB/setup %}
 

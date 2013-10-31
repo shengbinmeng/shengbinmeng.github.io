@@ -3,7 +3,7 @@ layout: post
 title: 我在OS X上需要的工具
 date: 2013-10-30 23:00:0
 category: 技术
-tags: [OS X]
+tags: [Mac, OS X, Open Source]
 ---
 {% include JB/setup %}
 

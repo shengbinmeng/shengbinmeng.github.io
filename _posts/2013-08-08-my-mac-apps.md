@@ -3,7 +3,7 @@ layout: post
 title: 我使用Mac电脑的必备应用
 date: 2013-08-08 21:00:0
 category: 技术
-tags: [Mac]
+tags: [Mac, OS X]
 ---
 {% include JB/setup %}
 
