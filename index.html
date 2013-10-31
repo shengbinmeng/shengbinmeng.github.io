@@ -6,7 +6,7 @@ title: Shengbin's Blog
 <div class="row-fluid">
   {% for post in paginator.posts %}
         {% capture summary %}{{post.content | split:'<!--more-->' |first }}{% endcapture%}
-        <h2><a class="title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+        <h1><a class="title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
         <div class="post_at_index">
             {{summary}} 
         {% if summary != post.content %}<a href="{{ BASE_PATH }}{{ post.url }}" rel="nofollow">Read more...</a>{% endif %}
