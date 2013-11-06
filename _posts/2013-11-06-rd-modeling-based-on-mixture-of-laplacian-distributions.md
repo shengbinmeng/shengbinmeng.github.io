@@ -11,4 +11,4 @@ tags: [RD, 建模，Laplace]
 论文可以在<http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5977003>下载。下面是报告的PPT。
 
 <!--more-->
-<iframe src="https://skydrive.live.com/embed?cid=8B504C1595CD3973&amp;resid=8B504C1595CD3973%2126384&amp;authkey=AKy2q0QsXIR-Iqo&amp;em=2" width="700" height="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://skydrive.live.com/embed?cid=8B504C1595CD3973&amp;resid=8B504C1595CD3973%2126384&amp;authkey=AKy2q0QsXIR-Iqo&amp;em=2" width="700" height="500" frameborder="0" scrolling="no"> </iframe>
