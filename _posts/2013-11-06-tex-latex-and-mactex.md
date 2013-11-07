@@ -3,7 +3,7 @@ layout: post
 title: TeX，LaTeX，以及MacTeX
 date: 2013-11-06 22:00:0
 category: 学术
-tags: [Latex, Mac, OS X]
+tags: [LaTeX, Mac, OS X]
 ---
 {% include JB/setup %}
 
