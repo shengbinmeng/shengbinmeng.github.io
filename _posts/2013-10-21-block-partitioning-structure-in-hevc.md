@@ -10,7 +10,7 @@ tags: [HEVC]
 在新一代视频编码标准[HEVC](http://en.wikipedia.org/wiki/High_Efficiency_Video_Coding)中，为了适应大分辨率视频并提供更灵活的编码块选取，引入了基于四叉树的分块结构。下面是其中一些重要概念。
 
 <!--more-->
-CTU（Coding Tree Unit）: 类似于H.264里的MB；可以在SPS中指定CTU大小的上下限。一个视频帧，更准确说是一个视频片（Slice），将被划分为许多个CTU来处理。每一个CTU都将按照一棵四叉树来进行分块。
+CTU（Coding Tree Unit）：类似于H.264里的MB；可以在SPS中指定CTU大小的上下限。一个视频帧，更准确说是一个视频片（Slice），将被划分为许多个CTU来处理。每一个CTU都将按照一棵四叉树来进行分块。
 
 CU（Coding Unit）：CTU可以选择进一步划分或不划分。当CTU不再划分时，它就成了CU；当CTU按照四叉树形式划分时，四叉树的叶子节点就是一个个的CU。
 CU是进行编码的基本单元，编码过程就是按照从左上到右下的顺序依次处理每个CU。每一个CU选择采用帧内预测模式还是帧间预测模式。
