@@ -4,7 +4,7 @@ permalink: /posts/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
-paginate: 6
+paginate: 10
 description_length: 200
 
 # Themes are encouraged to use these universal variables 
