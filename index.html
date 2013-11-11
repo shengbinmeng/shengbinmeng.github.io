@@ -36,13 +36,13 @@ title: Shengbin's Blog
         {% endif %}
     {% else %}
         <li class="disabled">
-            <a href="/">&laquo; Previous</a>
+            <a>&laquo; Previous</a>
         </li>
     {% endif %}
   
     {% if paginator.page == 1 %}
         <li class="active">
-            <a href="/">1</a>
+            <a>1</a>
         </li>
     {% else %}
         <li>
@@ -53,7 +53,7 @@ title: Shengbin's Blog
     {% for count in (2..paginator.total_pages) %}
         {% if count == paginator.page %}
             <li class="active">
-                <a href="#">{{count}}</a>
+                <a>{{count}}</a>
             </li>
         {% else %}
             <li>
@@ -68,7 +68,7 @@ title: Shengbin's Blog
         </li>
     {% else %}
         <li class="disabled">
-            <a href="#">Next &raquo;</a>
+            <a>Next &raquo;</a>
         </li>
     {% endif %}
     </ul>
