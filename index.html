@@ -20,21 +20,56 @@ title: Shengbin's Blog
  {% endfor %}
 </div>
 
+
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <a href="/" class="previous">Previous</a>
+    <ul>
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <li>
+            <a href="/">&laquo; Previous</a>
+        </li>
+        {% else %}
+        <li>
+            <a href="/page{{ paginator.previous_page }}">&laquo; Previous</a>
+        </li>
+        {% endif %}
     {% else %}
-      <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+        <li class="disabled">
+            <a href="/">&laquo; Previous</a>
+        </li>
     {% endif %}
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number "> | Page: {{ paginator.page }} of {{ paginator.total_pages }} | </span>
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
+  
+    {% if paginator.page == 1 %}
+        <li class="active">
+            <a href="/">1</a>
+        </li>
+    {% else %}
+        <li>
+            <a href="/">1</a>
+        </li>
+    {% endif %}
+      
+    {% for count in (2..paginator.total_pages) %}
+        {% if count == paginator.page %}
+            <li class="active">
+                <a href="#">{{count}}</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="/page{{count}}">{{count}}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+  
+    {% if paginator.next_page %}
+        <li>
+            <a href="/page{{paginator.next_page}}">Next &raquo;</a>
+        </li>
+    {% else %}
+        <li class="disabled">
+            <a href="#">Next &raquo;</a>
+        </li>
+    {% endif %}
+    </ul>
 </div>
