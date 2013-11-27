@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 整数类型溢出导致的一个bug
-date: 2013-11-23 17:00:0
+date: 2013-11-24 17:00:00
 category: 技术
 tags: [Programming, C/C++]
 ---
