@@ -3,7 +3,7 @@ layout: post
 title: 整数类型溢出导致的一个bug
 date: 2013-11-23 17:00:0
 category: 技术
-tags: [Programming]
+tags: [Programming, C/C++]
 ---
 {% include JB/setup %}
 
