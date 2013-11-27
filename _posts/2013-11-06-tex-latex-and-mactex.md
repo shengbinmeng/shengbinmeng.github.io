@@ -46,8 +46,7 @@ MacTeX安装的内容有：
 * TeX Live 2013，主要的TeX程序，还附带各种Format、Package、Style文件等。LaTeX就在其中。
 * 两个TeX前端（类似IDE的东西），即TeXworks和TeXShop。
 * 一些GUI辅助应用，如检测更新的TeX Live Utility、拼写检查的Excalibur、管理参考文献的BibDesk、为别的应用生成公式的LaTeXiT等。
-* 一些命令行工具，如Ghostscript-9.07（用于由ps生成pdf）、ImageMagick-Convert-6.8.3（用于不同格式间的转换）等。
-* 一些字体和文档。
+* 一些命令行工具，如Ghostscript-9.07（用于由ps生成pdf）、ImageMagick-Convert-6.8.3（用于不同格式间的转换）等；以及一些字体和文档。  
 
 关于TeXworks和TeXShop：一个分发包里竟有两个同样功能的前端程序，这已经让我不满了；打开TeXworks之后发现其界面在Retia显示屏上简直惨不忍睹，于是果断删除之！
 原来TeXShop才是给Mac用的前端，TeXworks是基于TeXShop进行多平台支持的尝试（话说你还没做好就别跟着TeXShop一起发布了行不行！）。
