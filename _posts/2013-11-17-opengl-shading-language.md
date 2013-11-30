@@ -24,7 +24,7 @@ SL的语法类似于C语言。我们结合例子进行说明。
 
 以下是两个配对的顶点着色器和片段着色器代码。
 
-{% highlight c %}
+{% highlight cpp %}
 // Vertex Shader
 attribute vec4 a_position;
 attribute vec2 a_texCoord;
@@ -34,9 +34,9 @@ void main()
 	gl_Position = a_position;
 	v_tc = a_texCoord;
 };
-{% end highlight %}
+{% endhighlight %}
 
-{% highlight c %}
+{% highlight cpp %}
 // Fragment Shader
 varying lowp vec2 v_tc;
 uniform sampler2D u_texY;
@@ -49,12 +49,12 @@ void main()
 	yuv.x = texture2D(u_texY, v_tc).r;
 	yuv.y = texture2D(u_texU, v_tc).r - 0.5;
 	yuv.z = texture2D(u_texV, v_tc).r - 0.5;
-	rgb = mat3( 1,   1,   1,
-				0,       -0.39465,  2.03211,
-				1.13983,   -0.58060,  0) * yuv;
+	rgb = mat3( 1,   1,   1,  
+	            0,       -0.39465,  2.03211,
+	            1.13983,   -0.58060,  0) * yuv;
 	gl_FragColor = vec4(rgb, 1);
 };
-{% end highlight %}
+{% endhighlight %}
 
 首先每个程序有一个main函数。在顶点着色器中，有个gl_开头的变量，`gl_Position`，这是SL的内置变量。
 顶点着色器的目的就是给这个变量赋值，也就是给出每个顶点的最终位置。
@@ -98,7 +98,7 @@ void main()
 渐变量有一个重要的特点是可以自动插值。从CPU传给GPU的只是模型每个顶点的属性，对于顶点之间的线或面上的像素属性（主要是其颜色和纹理坐标），渐变量可以根据该像素在顶点间的位置自动插值出来。
 这个特点也是为符合其用途的需要。
 
-##使用
+##使用着色器
 
 SL源代码可以存储在单独的文件中，或者以字符串的形式写在OpenGL应用程序源代码中。
 在OpenGL初始化时，有专门的API来编译、链接、使用着色器程序。
