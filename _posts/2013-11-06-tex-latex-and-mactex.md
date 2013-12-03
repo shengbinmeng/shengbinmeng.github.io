@@ -10,7 +10,7 @@ tags: [LaTeX, Mac, OS X]
 准备在Mac上写学术论文了，先得为OS X安装一下LaTeX。
 LaTeX项目官网[告诉](http://latex-project.org/ftp.html)我说LaTeX可以随TeX分发包一起获取，而OS X上的TeX分发包可以选用MacTeX。
 
-工欲善其事，必先利其器。工欲利其器，必先知其器。TeX、LaTeX、MacTeX，它们具体是什么？它们之间又是什么关系呢？
+工欲善其事，必先利其器。欲利其器者，必先知其器。TeX、LaTeX、MacTeX，它们具体是什么？它们之间又是什么关系呢？
 
 <!--more-->
 ##TeX
