@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我在iOS系统上使用的App
-date: 2013-12-04 21:00:0
+date: 2013-12-04 21:00:00
 category: 技术
 tags: [iOS]
 ---
