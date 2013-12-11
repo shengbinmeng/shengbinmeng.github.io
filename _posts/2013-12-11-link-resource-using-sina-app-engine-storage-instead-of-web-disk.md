@@ -3,7 +3,7 @@ layout: post
 title: 使用SAE存储服务替代网盘来链接资源
 date: 2013-12-11 22:00:00
 category: 技术
-tags: [Web]
+tags: [Web, SAE]
 ---
 {% include JB/setup %}
 
