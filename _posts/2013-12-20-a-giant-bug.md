@@ -32,6 +32,6 @@ tags: [Linux, Programming, Fun]
 于是，上面的代码本来是要在不烦扰用户的情况下删除位于`/usr/lib/nvidia-current/xorg/xorg`的（已经没用的）文件，
 却由于多写了一个空格，变成了删除系统目录`/usr/`下的所有数据！
 
-![悲剧啊！](/images/2013-12-20-what-a-tragedy.jpeg)
+![悲剧啊](/images/2013-12-20-what-a-tragedy.jpeg)
 
 在本文开始给出的链接页面上，关于这个bug有很多吐槽，其中不乏欢乐的图片。上面只是其中一张中文的，其他的自行去围观吧。
