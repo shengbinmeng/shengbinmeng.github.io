@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "adb server is out of date的原因及避免之道"
+title: adb server is out of date的原因及避免之道
 date: 2013-10-18 20:00:0
 category: 技术
 tags: [Android]
@@ -10,9 +10,9 @@ tags: [Android]
 执行Android开发包中的adb命令时出现了如下错误：
 
     C:\Users\Shengbin>adb devices
-	adb server is out of date.  killing...
-	ADB server didn't ACK
-	* failed to start daemon *
+    adb server is out of date.  killing...
+    ADB server didn't ACK
+    * failed to start daemon *
 
 <!--more-->
 [这篇博客](http://blog.csdn.net/id19870510/article/details/8489486)中介绍了原因和解决方法。简言之，导致这个错误是因为adb daemon没有启动；之所以无法启动是因为别的线程占据了adb server需要用的端口。
