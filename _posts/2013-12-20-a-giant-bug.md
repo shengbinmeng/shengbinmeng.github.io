@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 足以损坏你系统的大虫子
+title: 可以咬坏你系统的大虫子
 date: 2013-12-20 17:00:00
 category: 技术
 tags: [Linux, Programming, Fun]
 ---
 {% include JB/setup %}
 
-标题是为了哗众取宠。本文实际要讲的是某程序中的一个巨大bug，它可以损坏你的操作系统。嗯，bug原意就是虫子，所以其实标题也没什么错。
+标题是为了哗众取宠。本文实际要讲的是某程序中的一个巨大bug，它足以损坏你的操作系统。嗯，bug原意就是虫子，所以其实标题也没什么错。
 
 <!--more-->
 关于这个GIANT BUG的原始资料在这里：<https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/commit/a047be85247755cdbe0acce6f1dafc8beb84f2ac#L1L351>。
@@ -32,6 +32,6 @@ tags: [Linux, Programming, Fun]
 于是，上面的代码本来是要在不烦扰用户的情况下删除位于`/usr/lib/nvidia-current/xorg/xorg`的（已经没用的）文件，
 却由于多写了一个空格，变成了删除系统目录`/usr/`下的所有数据！
 
-![悲剧啊](/images/2013-12-20-what-a-tragedy.jpeg)
+![悲剧啊！](/images/2013-12-20-what-a-tragedy.jpeg)
 
 在本文开始给出的链接页面上，关于这个bug有很多吐槽，其中不乏欢乐的图片。上面只是其中一张中文的，其他的自行去围观吧。
