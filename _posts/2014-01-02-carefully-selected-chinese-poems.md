@@ -3,7 +3,7 @@ layout: post
 title: 古诗文精华
 date: 2014-01-02 21:00:00
 category: 生活
-tags: [诗词，Fun]
+tags: [诗词, Fun]
 ---
 {% include JB/setup %}
 
