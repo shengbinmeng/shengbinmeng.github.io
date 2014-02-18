@@ -3,7 +3,7 @@ layout: post
 title: "残差图像DCT变换后系数的分布"
 date: 2013-07-23 17:30:01
 category: 学术
-tags: [Source Coding, GGD, 建模]
+tags: [新源编码, GGD, 建模]
 ---
 {% include JB/setup %}
 

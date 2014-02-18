@@ -3,7 +3,7 @@ layout: post
 title: OpenGL基本概念
 date: 2013-11-03 20:00:00
 category: 技术
-tags: [Programming, OpenGL]
+tags: [编程, OpenGL]
 ---
 {% include JB/setup %}
 

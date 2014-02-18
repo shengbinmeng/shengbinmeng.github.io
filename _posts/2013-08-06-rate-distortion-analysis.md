@@ -3,7 +3,7 @@ layout: post
 title: "率失真分析"
 date: 2013-08-06 17:30:01
 category: 学术
-tags: [Source Coding, RD, 建模]
+tags: [信源编码, 率失真, 建模]
 ---
 {% include JB/setup %}
 

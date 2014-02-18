@@ -3,7 +3,7 @@ layout: post
 title: C语言中的全局变量与局部变量
 date: 2013-11-12 13:00:0
 category: 技术
-tags: [Programming, C/C++]
+tags: [编程, C/C++]
 ---
 {% include JB/setup %}
 

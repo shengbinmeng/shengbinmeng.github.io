@@ -3,7 +3,7 @@ layout: post
 title: "广义高斯分布及其参数估计"
 date: 2013-08-07 17:30:01
 category: 学术
-tags: [Source Coding, GGD]
+tags: [信源编码, GGD]
 ---
 {% include JB/setup %}
 

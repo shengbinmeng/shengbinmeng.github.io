@@ -3,7 +3,7 @@ layout: post
 title: Android的UI布局
 date: 2014-01-05 17:00:00
 category: 技术
-tags: [Android, Programming]
+tags: [Android, 编程]
 ---
 {% include JB/setup %}
 

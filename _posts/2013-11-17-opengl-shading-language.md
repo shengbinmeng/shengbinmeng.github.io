@@ -3,7 +3,7 @@ layout: post
 title: OpenGL中的着色语言
 date: 2013-11-17 13:00:0
 category: 技术
-tags: [Programming, OpenGL]
+tags: [编程, OpenGL]
 published: true
 ---
 {% include JB/setup %}

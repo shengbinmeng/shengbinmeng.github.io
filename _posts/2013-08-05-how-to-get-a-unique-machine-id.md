@@ -3,7 +3,7 @@ layout: post
 title: 如何获取唯一的机器码
 date: 2013-08-05 22:00:0
 category: 技术
-tags: [Linux, Windows, Programming]
+tags: [Linux, Windows, 编程]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: 基于多个拉普拉斯混合分布的率失真模型
 date: 2013-11-06 12:00:0
 category: 学术
-tags: [RD, 建模, Laplace]
+tags: [率失真, 建模, Laplace]
 ---
 {% include JB/setup %}
 

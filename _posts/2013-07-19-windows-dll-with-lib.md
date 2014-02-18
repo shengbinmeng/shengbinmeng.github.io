@@ -2,7 +2,7 @@
 layout: post
 title: "为何Windows下的动态库总伴随一个静态库？"
 category: 技术
-tags: [Windows, Linux, Programming]
+tags: [Windows, Linux, 编程]
 ---
 {% include JB/setup %}
 

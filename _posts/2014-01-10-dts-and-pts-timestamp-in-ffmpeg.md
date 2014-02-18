@@ -3,7 +3,7 @@ layout: post
 title: FFmpeg中的时间戳（DTS和PTS）
 date: 2014-01-10 17:00:00
 category: 技术
-tags: [Programming, FFmpeg]
+tags: [编程, FFmpeg]
 ---
 {% include JB/setup %}
 

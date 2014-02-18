@@ -3,7 +3,7 @@ layout: post
 title: "广义高斯分布信源的率失真函数"
 date: 2013-08-26 17:30:01
 category: 学术
-tags: [Source Coding, GGD, RD, 建模]
+tags: [信源编码, GGD, 率失真, 建模]
 ---
 {% include JB/setup %}
 
