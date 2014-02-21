@@ -3,7 +3,7 @@ layout: post
 title: 第一篇被接收的论文
 date: 2014-01-13 21:00:00
 category: 学术
-tags: [论文, PID, 澳大利亚]
+tags: [论文, PID]
 ---
 {% include JB/setup %}
 
