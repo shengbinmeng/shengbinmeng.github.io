@@ -3,7 +3,7 @@ layout: post
 title: "基于柯西分布的率失真模型"
 date: 2013-09-27 16:30:01
 category: 学术
-tags: [新源编码, 率失真, 建模, Cauchy]
+tags: [信源编码, 率失真, 建模, Cauchy]
 ---
 {% include JB/setup %}
 
