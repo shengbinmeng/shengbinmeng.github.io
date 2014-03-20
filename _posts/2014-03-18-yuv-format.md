@@ -29,7 +29,7 @@ Packed的YUV中亮度分量和色度分量是交叉存储的（这一点类似RG
 
     UYVYUYVYUYVYUYVYUYVYUYVYUYVYUYVY
 
-#Semi-planar的YUV
+##Semi-planar的YUV
 
 这是Planar和Packed两种格式的混合体：Y分量单独一个plane，U和V则交叉存储。这种YUV一般都是4:2:0的。例如：
 
