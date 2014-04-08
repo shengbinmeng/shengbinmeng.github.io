@@ -3,7 +3,7 @@ layout: post
 title: 如何相爱
 date: 2013-11-06 20:00:0
 category: 生活
-tags: [Love, Girl]
+tags: [爱, Girl]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: 可以咬坏你系统的大虫子
 date: 2013-12-20 17:00:00
 category: 技术
-tags: [Linux, 编程, Fun]
+tags: [Linux, 编程, 趣]
 ---
 {% include JB/setup %}
 
