@@ -3,7 +3,7 @@ layout: post
 title: 咱也加入Google Play开发者项目
 date: 2013-10-07 20:00:0
 category: 技术
-tags: [Android, 编程]
+tags: [Android, 编程, Google]
 ---
 {% include JB/setup %}
 
