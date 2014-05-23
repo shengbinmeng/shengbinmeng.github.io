@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 嵌入汉语古诗文
-date: 2014-05-23 19:00:00
+date: 2014-05-22 19:00:00
 category: 技术
 tags: [网站, 诗词, Web]
 ---
