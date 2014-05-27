@@ -13,6 +13,7 @@ LaTeX项目官网[告诉](http://latex-project.org/ftp.html)我说LaTeX可以随
 工欲善其事，必先利其器。欲利其器者，必先知其器。TeX、LaTeX、MacTeX，它们具体是什么？它们之间又是什么关系呢？
 
 <!--more-->
+
 ##TeX
 
 首先，TeX是最早由[Donald Knuth](http://baike.baidu.com/view/2193127.htm)开发的Unix计算机程序。它是一个排版引擎，能够用来生成漂亮的文档。
@@ -52,4 +53,4 @@ MacTeX安装的内容有：
 关于TeXworks和TeXShop：一个分发包里竟有两个同样功能的前端程序，这已经让我不满了；打开TeXworks之后发现其界面在Retia显示屏上简直惨不忍睹，于是果断删除之！
 原来TeXShop才是给Mac用的前端，TeXworks是基于TeXShop进行多平台支持的尝试（话说你还没做好就别跟着TeXShop一起发布了行不行！）。
 
-最后说一句：在Windows上我用的是[TeXstudio](http://texstudio.sourceforge.net/)，但由于它的作者们都不用Mac，所以其Mac版体验并不好。
+最后说一句：在Windows上我用的Tex前端是[TeXstudio](http://texstudio.sourceforge.net/)，但由于它的作者们都不用Mac，所以其Mac版体验并不好。
