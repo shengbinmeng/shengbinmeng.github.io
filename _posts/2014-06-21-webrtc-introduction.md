@@ -51,3 +51,7 @@ RTCPeerConnection是两个终端进行远程通信需要用到的API。上面介
 ## RTCDataChannel
 
 RTCDataChannel可以用来传输任意的数据，不仅限于MediaStream所表示的音视频媒体。
+
+最后附上我给别人简单介绍WebRTC时用的PPT，其中有RTCPeerConnection和RTCDataChannel的具体函数和一些参考链接。
+
+<iframe src="https://onedrive.live.com/embed?cid=8B504C1595CD3973&resid=8B504C1595CD3973%2127643&authkey=AIP8GTYzfq9pIHY&em=2" width="700" height="500" frameborder="0" scrolling="no"></iframe>
