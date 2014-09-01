@@ -3,7 +3,7 @@ layout: post
 title: 进入休假
 date: 2014-07-26 17:00:00
 category: 生活
-tags: [旅行]
+tags: [记录, 旅行]
 ---
 {% include JB/setup %}
 
