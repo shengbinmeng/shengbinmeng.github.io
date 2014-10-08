@@ -1,13 +1,13 @@
 ---
 layout: post
-title: ICC2014的论文展示
+title: ICC 2014的论文展示
 date: 2014-07-11 17:00:00
 category: 学术
 tags: [论文]
 ---
 {% include JB/setup %}
 
-我的[ICC2014](http://icc2014.ieee-icc.org/)论文展示形式是口头演讲，但由于我没去，是别人代讲的。PPT是我做的，放在下面。
+我的[ICC 2014](http://icc2014.ieee-icc.org/)论文展示形式是口头演讲，但由于我没去，是别人代讲的。PPT是我做的，放在下面。
 
 这篇论文是用控制论中的PID方法进行视频流媒体的质量控制。
 
