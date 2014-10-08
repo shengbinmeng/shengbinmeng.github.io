@@ -2,7 +2,7 @@
 layout: post
 title: 一篇Demo论文被接收
 date: 2014-09-28 17:00:00
-category: 生活
+category: 学术
 tags: [论文, 澳大利亚]
 ---
 {% include JB/setup %}
