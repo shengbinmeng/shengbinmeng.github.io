@@ -29,7 +29,7 @@ tags: [Web, 开源]
 
 Nginx是一个Web服务器，与著名的Apache同类。它的用途是提供网页访问。
 
-###[Prosody](<http://prosody.im/)
+###[Prosody](http://prosody.im/)
 
 Prosody是一个XMPP服务器。XMPP全称是Extensible Messaging and Presence Protocol，即可扩展通信和表示协议。它是一种即时通信协议，主要是实现文字聊天。
 
@@ -41,7 +41,7 @@ Jitsi-Videobridge用于处理视频传输，也就是视频流在各参与者之
 
 转发意味着服务器要从N个参与者那里接受视频流，然后给每个参与者发送其他N-1个参与者的视频数据，这对服务器带宽要求很高。但由于未对视频做任何处理，CPU负载并不高。
 
-###[Restund](<http://www.creytiv.com/restund.html)
+###[Restund](http://www.creytiv.com/restund.html)
 
 这是一个STUN/TURN服务器。STUN是一种NAT穿透技术，用于帮助处在内网的主机确定自己的公网IP和端口，从而与别的主机建立直接连接（WebRTC中PeerConnection）。TURN是STUN的增强版，可以在无法穿透NAT进行直连的情况下提供数据的转发。
 
