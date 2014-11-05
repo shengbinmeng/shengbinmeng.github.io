@@ -11,9 +11,10 @@ tags: [论文, LaTeX]
 下面介绍在LaTeX中如何实现这两种方式。
 
 <!--more-->
+
 ##写在第一页的脚注
 
-IEEE论文的LaTeX模版分为期刊和会议两类。对于期刊论文，在`\author`模块里可以采用一个`\thanks`，其中的内容就会以脚注的形式出现。对于会议论文，`\thanks`功能被禁用了（因为他们认为会议文章不需要这个）。但我们可以通过在`\documentclass`后面加入一个`\IEEEoverridecommandlockouts`命令来打开禁用的功能。
+IEEE论文的LaTeX模版分为期刊和会议两类。对于期刊论文，在`\author`模块里可以采用一个`\thanks`，其中的内容就会以脚注的形式出现。对于会议论文，`\thanks`功能被禁用了（可能因为他们认为会议文章不需要这个）。但我们可以通过在`\documentclass`后面加入一个`\IEEEoverridecommandlockouts`命令来打开禁用的功能。
 
 还有一个选择就是`\let\thefootnote\relax\footnotetext{}`。这个命令让{}中的文字显示为脚注，却不需要正文某个地方有脚注标记。这也可以用来写资助信息。
 
