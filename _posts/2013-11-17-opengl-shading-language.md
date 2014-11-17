@@ -11,6 +11,7 @@ published: true
 之前曾介绍过[OpenGL的基本概念](http://blog.shengbin.me/posts/opengl-concepts/)。本文介绍[OpenGL中的着色语言（Shading Language）](http://www.opengl.org/documentation/glsl/)。
 
 <!--more-->
+
 ##简介
 
 着色语言（简称SL）主要是用来写OpenGL 2.0（及以上版本）中可编程流水线使用的程序。
