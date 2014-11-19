@@ -10,11 +10,14 @@ tags: [Linux, Windows, 编程]
 获取唯一的机器码是采用密钥对软件进行保护的基础。一般来说，一台电脑的主要部件都会有一个序列号或是其他唯一的ID，唯一的机器码可以用这些ID组合、变换（例如进行md5）得到。因此，获取唯一的机器码归结为如何获取机器主要部件的属性。下面介绍在Windows下和在Linux下该如何做（重点是Linux）。
 
 <!--more-->
-####Windows
+
+##Windows
+
 Windows系统提供了一个被称为[WMI](http://en.wikipedia.org/wiki/Windows_Management_Instrumentation)的机制，可用于管理各个部件。
 我们可以借助它来向操作系统查询各个设备的属性，十分方便。具体的调用借口可以看MSDN文档，或上网搜索，这里就不详细介绍了。
 
-####Linux
+##Linux
+
 Linux下没有类似WMI那样由系统提供的查询接口，程序员们必须自己动手。Linux系统是基于文件的，它将硬件设备也映射为文件。
 因此，Linux下主机的硬件信息一般都可以在文件系统中读取。例如，主板的序列号可以通过读取`/sys/class/dmi/id/board_serial`
 这个文件得到：
