@@ -3,7 +3,7 @@ layout: post
 title: 景公晏子日常二三事
 date: 2014-11-27 12:00:00
 category: 生活
-tags: [古文, 段子]
+tags: [古文, 段子, 趣]
 ---
 {% include JB/setup %}
 
