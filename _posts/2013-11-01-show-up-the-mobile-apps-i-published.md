@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 秀一下自己发布的手机应用
-date: 2013-11-01 20:00:00
+date: 2013-11-01 12:00:00
 category: 技术
 tags: [iOS, Android]
 ---
@@ -10,6 +10,7 @@ tags: [iOS, Android]
 如题。如下：
 
 <!--more-->
+
 ###IPGateway（iOS）
 
 <a href="/images/2013-11-01-ipgateway.png" title="点击看大图" target="_blank">
