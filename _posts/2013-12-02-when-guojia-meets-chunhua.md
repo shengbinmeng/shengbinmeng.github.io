@@ -7,7 +7,7 @@ tags: [三国杀, 诗词]
 ---
 {% include JB/setup %}
 
-张春华是三国时期司马懿的妻子。在三国杀中，[该角色](http://www.3gsha.com/wujiang/zhangchunhua.html)有“绝情”和“伤逝”两个技能，非常厉害。
+张春华是三国时期司马懿的妻子。在三国杀中，[该角色](http://gw.sanguosha.com/data/newsDetail.asp?id=220&CategoryID=5004)有“绝情”和“伤逝”两个技能，非常厉害。
 郭嘉、司马懿，乃至曹操、夏侯惇这些名将都对这位“冷血皇后”避之唯恐不及。下面这首无题小诗即对其进行咏叹。
 
 <!--more-->
