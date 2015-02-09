@@ -3,7 +3,7 @@ layout: post
 title: 如何给女朋友过生日
 date: 2013-09-24 23:00:0
 category: 生活
-tags: [Girl]
+tags: [Girl, 礼物]
 ---
 {% include JB/setup %}
 
