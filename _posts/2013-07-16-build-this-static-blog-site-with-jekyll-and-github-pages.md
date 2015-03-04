@@ -43,7 +43,7 @@ Tag例如"{% if site.author == 'shengbin' %}...{% endif %}"，"{% assign variabl
 
 Front matter是放在一个文件最开头的几行文本。Jekyll对含有front matter的文本文件进行转换，对其他目录和文件则直接拷贝。
 对于要转换的文本文件，例如每篇博客的md文件，进行如下处理：结合其中的front matter，将其嵌进模版布局文件中（Layouts），然后送给Liquid和Pygment。布局文件一般含有大量的Liquid标记，
-提供基本的header和footer等结构，在其中填充内容后就成了一个页面。{% raw %}该首先由Liquid进行处理，将其中的"{% %}"和"{{ }}"去除，得到HTML文本。这个过程中，有些Jekyll自定义的Tag，如"{% highlight ruby %}"，这些Tag需要Jekyll调用Liquid之外的工具。例如，对于上述highlight的Tag，Jekyll交给Pygment进行处理，得到HTML文本。{% end raw %}
+提供基本的header和footer等结构，在其中填充内容后就成了一个页面。{% raw %} 该页面首先由Liquid进行处理，将其中的"{% %}"和"{{ }}"去除，得到HTML文本。这个过程中，有些Jekyll自定义的Tag，如"{% highlight ruby %}"，这些Tag需要Jekyll调用Liquid之外的工具。例如，对于上述highlight的Tag，Jekyll交给Pygment进行处理，得到HTML文本。
 总之，Jekyll会将含有front matter的文件中需要处理的部分转换为HTML，从而得到想要的格式或内容。另一个需要指出的功能在于，Jekyll扫描了整个目录结构，因此它获得了一些全局的信息，使之可以在一个文件中使用。
 例如，所有页面的列表、同一个分类下的全部文章，等等。正是这种全局扫描使撰写博客、生成站点变得自动化了，非常方便。
 
