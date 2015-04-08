@@ -7,7 +7,8 @@ tags: [Web]
 ---
 {% include JB/setup %}
 
-为方便国内的读者，本博客在最初增加评论系统的时候毅然决定舍弃国外广泛使用的[Disqus](https://disqus.com/)，而采用了本土化的[多说](http://duoshuo.com/)。后者虽然号称“下载量第1的评论系统”，但其使用体验应该比不上Disqus。
+为方便国内的读者，本博客在最初增加评论系统的时候毅然决定舍弃国外广泛使用的[Disqus](https://disqus.com/)，而采用了本土化的[多说](http://duoshuo.com/)。
+后者虽然号称“下载量第1的评论系统”，但其使用体验却比不上Disqus。
 
 <!--more-->
 
