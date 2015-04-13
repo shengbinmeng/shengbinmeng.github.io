@@ -7,7 +7,7 @@ tags: [2008年]
 ---
 {% include JB/setup %}
 
-> 这篇文章属于[《梦之栖居》](/posts/where-the-dreams-reside/)系列，写于2008年7月。
+> 这篇文章属于[《梦之栖居》](/posts/where-the-dreams-reside/)系列，写于2008年。
 
 <!--more-->
 
