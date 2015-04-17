@@ -3,7 +3,7 @@ layout: post
 title: 死亡诗社
 date: 2008-11-15 12:00:01
 category: 朝花夕拾
-tags: [2008年]
+tags: [梦之栖居, 2008年]
 ---
 {% include JB/setup %}
 

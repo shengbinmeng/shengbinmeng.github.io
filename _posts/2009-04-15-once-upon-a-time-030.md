@@ -3,7 +3,7 @@ layout: post
 title: 初做报亭助理
 date: 2009-04-15 12:00:03
 category: 朝花夕拾
-tags: [2009年]
+tags: [梦之栖居, 2009年]
 ---
 {% include JB/setup %}
 

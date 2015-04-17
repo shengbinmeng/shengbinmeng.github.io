@@ -3,7 +3,7 @@ layout: post
 title: 生命有形，梦想无限——学习生命科学的感受
 date: 2009-04-15 12:00:04
 category: 朝花夕拾
-tags: [2009年]
+tags: [梦之栖居, 2009年]
 ---
 {% include JB/setup %}
 

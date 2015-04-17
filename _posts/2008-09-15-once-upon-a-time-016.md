@@ -3,7 +3,7 @@ layout: post
 title: 改变中国
 date: 2008-09-15 12:00:07
 category: 朝花夕拾
-tags: [2008年]
+tags: [梦之栖居, 2008年]
 ---
 {% include JB/setup %}
 

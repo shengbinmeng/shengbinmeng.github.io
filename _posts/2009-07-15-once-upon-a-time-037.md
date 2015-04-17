@@ -3,7 +3,7 @@ layout: post
 title: 可恶的校医院
 date: 2009-07-15 12:00:03
 category: 朝花夕拾
-tags: [2009年]
+tags: [梦之栖居, 2009年]
 ---
 {% include JB/setup %}
 

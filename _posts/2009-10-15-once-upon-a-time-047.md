@@ -3,7 +3,7 @@ layout: post
 title: 华西背后的剥削——关于其模式推广性的思考
 date: 2009-10-15 12:00:06
 category: 朝花夕拾
-tags: [2009年]
+tags: [梦之栖居, 2009年]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: 捡到东西要上交吧？
 date: 2008-08-15 12:00:02
 category: 朝花夕拾
-tags: [2008年]
+tags: [梦之栖居, 2008年]
 ---
 {% include JB/setup %}
 

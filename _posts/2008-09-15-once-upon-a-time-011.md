@@ -3,7 +3,7 @@ layout: post
 title: 如果真的有一天……
 date: 2008-09-15 12:00:02
 category: 朝花夕拾
-tags: [2008年]
+tags: [梦之栖居, 2008年]
 ---
 {% include JB/setup %}
 

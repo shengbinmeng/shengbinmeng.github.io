@@ -3,7 +3,7 @@ layout: post
 title: 博客是卡拉OK式的寂寞
 date: 2008-08-15 12:00:03
 category: 朝花夕拾
-tags: [2008年]
+tags: [梦之栖居, 2008年]
 ---
 {% include JB/setup %}
 
