@@ -3,7 +3,7 @@ layout: post
 title: GCC中的aligned和packed属性
 date: 2015-04-18 12:00:00
 category: 技术
-tags: [GCC, 编程, C/C++, SSE， ARM]
+tags: [GCC, 编程, C/C++, SSE, ARM]
 ---
 {% include JB/setup %}
 
