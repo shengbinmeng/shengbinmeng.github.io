@@ -12,7 +12,9 @@ tags: [论文]
 本文主要介绍一下上述三个索引，顺带介绍下对会议和期刊的分级。
 
 <!--more-->
-##SCI
+
+## SCI
+
 SCI是《科学引文索引》的英文简称，其全称为：Science Citation Index。SCI是由美国科学情报所（Institute for Scientific Information Inc., 简称ISI）出版。
 SCI收录的是自然科学领域基础理论学科方面的期刊。SCI收录的期刊是由ISI通过它严格的选刊标准和评估程序挑选的，而且每年略有增减。
 
@@ -26,7 +28,8 @@ SCI、SSCI、JCR现在都是[Thomson Reuters](http://en.wikipedia.org/wiki/Thoms
 该公司于1992年收购了ISI，并通过[Web of Knowledge](http://en.wikipedia.org/wiki/Web_of_Knowledge)这个平台提供学术索引和搜索服务。
 上述三个产品都隶属于Web of Knowledge中的[Web of Science](http://en.wikipedia.org/wiki/Web_of_Science)数据库。
 
-##ISTP
+## ISTP
+
 ISTP（Index to Scientific & Technical Proceedings）即《科学技术会议录索引》，专门收录世界各种重要的自然科学及技术方面的会议。ISTP也是由美国科学情报所出版，
 涉及的学科也基本与SCI相同。
 
@@ -36,7 +39,8 @@ ISTP与SCI的主要区别就是SCI是对期刊的索引，而ISTP是对会议的
 现在ISTP这个名词已经慢慢过时了，因为Thomson Reuters公司从ISI买过来的ISTP整合进了Web of Science，并重新命名为“Conference Proceedings Citation Index”，即CPCI。
 CPCI按照领域分为Science和Social Science & Humanities两部分，分别简称为CPCI-S和CPCI-SSH。（顺便说一句，SCI现在也被Thomson Reuters命名为了SCI Expanded，收录的期刊范围也显著增大。）
 
-##EI
+## EI
+
 EI（Engineering Index）即《工程索引》，它是工程技术领域内的一部综合性检索工具，主要收录工程技术领域的论文，既包括期刊，又包括会议录。
 EI的特点就是学科为工程领域，这从它的名称也可以反映出来。由于收录标准跟期刊或论文的水平关系没那么紧密，因此EI收录也
 
@@ -47,7 +51,7 @@ Engineering Index这个词在Wikipedia上被重定向到了[Compendex](http://en
 
 上面提到的两大巨头公司中，Thomson Reuters在美国纽约市，Elsevier在荷兰的阿姆斯特丹。
 
-##会议和期刊的分级
+## 会议和期刊的分级
 将学术会议和期刊分为A、B、C几个等级，是为了区分它们的整体论文水平及影响力。就像大学的排名一样，也存在不同版本的会议期刊排名和分级。
 下面几个可供参考：
 
