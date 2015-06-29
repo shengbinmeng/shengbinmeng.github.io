@@ -7,7 +7,7 @@ tags: [三国杀]
 ---
 {% include JB/setup %}
 
-我喜欢玩[三国杀](http://www.sanguosha.com)。本文整理了三国杀（Online）中的武将发动技能和阵亡时的台词。
+本文整理了[三国杀](http://www.sanguosha.com)（Online）中的武将发动技能和阵亡时的台词。
 武将按标准版、风包、火包、林包、山包的顺序排列，并按照所属势力分门别类。
 
 <!--more-->
