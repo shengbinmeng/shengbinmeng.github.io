@@ -3,7 +3,7 @@ layout: post
 title: 三国杀标准版的改动
 date: 2015-06-12 12:00:00
 category: 生活
-tags: [三国杀, 纪录]
+tags: [三国杀, 记录]
 ---
 {% include JB/setup %}
 
