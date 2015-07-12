@@ -3,7 +3,7 @@ layout: post
 title: 刘慈欣的科幻小说
 date: 2013-09-15 11:00:0
 category: 生活
-tags: [科幻, 三体]
+tags: [科幻, 三体, 书]
 ---
 {% include JB/setup %}
 

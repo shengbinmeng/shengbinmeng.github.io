@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 诗，歌和书
-date: 2014-08-27 20:00:00
+date: 2014-08-27 12:00:00
 category: 生活
-tags: [诗词, 歌]
+tags: [诗词, 歌, 书]
 ---
 {% include JB/setup %}
 
