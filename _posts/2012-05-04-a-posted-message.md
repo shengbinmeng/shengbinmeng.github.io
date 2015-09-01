@@ -5,7 +5,6 @@ date: 2012-05-04 09:00:01
 category: 生活
 tags: [想法, 终将逝去的青春]
 ---
-{% include JB/setup %}
 
 <h2 align="center">Hello</h2>
 

@@ -5,7 +5,6 @@ date: 2013-11-04 23:00:0
 category: 技术
 tags: [Web, Markdown, Jekyll]
 ---
-{% include JB/setup %}
 
 Markdown文件中可以直接插入HTML语句。但Jekyll中的Markdown解析器maruku在解析HTML时对iframe似乎有特殊的要求。
 例如，直接插入下面的代码时会报错：

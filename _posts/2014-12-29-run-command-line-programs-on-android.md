@@ -5,7 +5,6 @@ date: 2014-12-29 12:00:00
 category: 技术
 tags: [Linux, Android, Shell]
 ---
-{% include JB/setup %}
 
 Android的基础是Linux，所以也能像Linux那样运行命令行程序。本文主要介绍一些需要注意的地方和可能遇到的问题。
 

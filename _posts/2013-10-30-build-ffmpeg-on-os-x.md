@@ -5,7 +5,6 @@ date: 2013-10-30 20:00:0
 category: 技术
 tags: [Mac, OS X, x264, FFmpeg]
 ---
-{% include JB/setup %}
 
 [FFmpeg](http://ffmpeg.org/)是一个著名的开源音视频工具包。ffmpeg是其中的音视频处理程序，ffplay是其中的简易媒体播放器。
 为了在OS X上编译出可用的ffmpeg和ffplay，还是可能会遇到一些麻烦事的。

@@ -5,7 +5,6 @@ date: 2014-12-27 12:00:00
 category: 技术
 tags: [Linux, VirtualBox]
 ---
-{% include JB/setup %}
 
 使用VirtualBox虚拟机时，宿主机和虚拟机之间交换文件最方便的方式就是共享文件夹了。
 

@@ -5,7 +5,6 @@ date: 2014-05-20 19:00:00
 category: 技术
 tags: [Web, Chrome]
 ---
-{% include JB/setup %}
 
 今天实验室的一位同学问我一个关于浏览器证书的问题。他在某个服务器上用Chrome和IE都无法访问一个HTTPS网站（具体来说是<https://www.coursera.org>），提示信息说无法验证该网站的安全证书。
 但同一个网站在我的PC上却可以访问。我去查看了一下，弄清楚了原因并帮他解决了这个问题。

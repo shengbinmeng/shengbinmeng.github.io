@@ -5,7 +5,6 @@ date: 2014-04-17 17:00:00
 category: 技术
 tags: [Web, 域名, Google, 社交]
 ---
-{% include JB/setup %}
 
 今天我定制了自己的Google+页面网址：[google.com/+ShengbinMeng](https://www.google.com/+ShengbinMeng)。
 

@@ -3,7 +3,7 @@ layout: post
 title:  Markdown语法
 date:   2013-07-16 00:00:00
 categories: 技术
-tags: Markdown
+tags: [Markdown]
 ---
 
 Markdown语法的完整介绍在这里：<http://daringfireball.net/projects/markdown/syntax>。下面整理的这些为了方便写博客时参考。

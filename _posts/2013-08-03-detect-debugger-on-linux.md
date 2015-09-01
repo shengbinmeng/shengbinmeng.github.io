@@ -5,7 +5,6 @@ date: 2013-08-03 17:00:0
 category: 技术
 tags: [Linux, GDB, 编程]
 ---
-{% include JB/setup %}
 
 在Windows下，程序可以用以下API函数检测当前进程是否正在被调试：
 

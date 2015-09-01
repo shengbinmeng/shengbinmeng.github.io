@@ -5,7 +5,6 @@ date: 2013-10-28 20:00:0
 category: 技术
 tags: [iOS, Android]
 ---
-{% include JB/setup %}
 
 知乎上[有人问](http://www.zhihu.com/question/21899398)：
 

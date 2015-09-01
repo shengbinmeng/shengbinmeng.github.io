@@ -5,7 +5,6 @@ date: 2014-09-13 16:00:00
 category: 生活
 tags: [礼物, Apple]
 ---
-{% include JB/setup %}
 
 今天是女朋友生日，我送给她的礼物是一个崭新的iPad Air。
 

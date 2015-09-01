@@ -5,7 +5,6 @@ date: 2013-10-21 16:30:01
 category: 学术
 tags: [HEVC]
 ---
-{% include JB/setup %}
 
 在新一代视频编码标准[HEVC](http://en.wikipedia.org/wiki/High_Efficiency_Video_Coding)中，为了适应大分辨率视频并提供更灵活的编码块选取，引入了基于四叉树的分块结构。下面是其中一些重要概念。
 

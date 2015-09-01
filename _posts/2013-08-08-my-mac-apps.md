@@ -5,7 +5,6 @@ date: 2013-08-08 21:00:0
 category: 技术
 tags: [Mac, OS X]
 ---
-{% include JB/setup %}
 
 Mac电脑运行的是苹果公司自家的OS X操作系统。这上面的应用程序与Windows上的是不兼容的。虽然OS X上的应用不如Windows上丰富，但是Windows上能满足的需求，
 在Mac OS X系统上也都有对应的应用程序能够满足。我从2011年开始使用Mac，经过选择和淘汰基本确定了自己常用的程序。最近这两天，由于之前一直在用的Macbook Pro坏掉了，

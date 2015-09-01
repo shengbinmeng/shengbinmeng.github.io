@@ -5,7 +5,6 @@ date: 2015-04-18 12:00:00
 category: 技术
 tags: [GCC, 编程, C/C++, SSE, ARM]
 ---
-{% include JB/setup %}
 
 GCC支持用`__attribute__`为变量、类型、函数、标签指定特殊属性。这些不是编程语言标准里的内容，而属于编译器对语言的扩展。
 本文介绍其中的两个属性：aligned和packed。

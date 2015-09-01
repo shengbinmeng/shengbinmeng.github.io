@@ -5,7 +5,6 @@ date: 2014-08-11 17:00:00
 category: 生活
 tags: [旅行]
 ---
-{% include JB/setup %}
 
 > 千里来寻故地，旧貌变新颜。
 

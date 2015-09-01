@@ -5,7 +5,6 @@ date: 2015-01-26 12:00:00
 category: 生活
 tags: [iOS, Android]
 ---
-{% include JB/setup %}
 
 今天我第一次从App Store花钱购买应用。买的这个应用是款游戏：[《纪念碑谷》](http://baike.baidu.com/subview/8623911/15364942.htm)。
 

@@ -5,7 +5,6 @@ date: 2014-09-28 17:00:00
 category: 学术
 tags: [论文, 澳大利亚]
 ---
-{% include JB/setup %}
 
 国庆节假期之前收到一个好消息：我投稿[MMM 2015](http://www.mmm2015.org/)的一篇Demo论文被接收了！
 

@@ -5,7 +5,6 @@ date: 2014-03-12 21:44:09
 category: 技术
 tags: [编程, Objective-C]
 ---
-{% include JB/setup %}
 
 iOS编程使用的语言主要是Objective-C。Objective-C在C语言基础上增加了面向对象的特性和一些新的语法。
 最近重新看了Apple开发者网站上的文档[《Programming with Objective-C》](https://developer.apple.com/library/ios/documentation/cocoa/conceptual/ProgrammingWithObjectiveC)，本文是一些笔记。

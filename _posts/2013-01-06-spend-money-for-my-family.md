@@ -5,7 +5,6 @@ date: 2013-01-06 00:00:01
 category: 生活
 tags: [想法]
 ---
-{% include JB/setup %}
 
 我决定把昨晚想的东西写下来。 
 

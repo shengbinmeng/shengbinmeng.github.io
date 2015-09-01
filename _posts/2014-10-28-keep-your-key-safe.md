@@ -5,7 +5,6 @@ date: 2014-10-28 19:00:00
 category: 技术
 tags: [Android, Google, Java]
 ---
-{% include JB/setup %}
 
 吃一堑，长一智。
 

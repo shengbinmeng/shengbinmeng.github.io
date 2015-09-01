@@ -5,7 +5,6 @@ date: 2013-10-07 20:00:0
 category: 技术
 tags: [Android, 编程, Google]
 ---
-{% include JB/setup %}
 
 十一假期抽空摆弄了自己的几个小App，除了为它们发布新版本之外，最大的一件事就是加入了Google Play开发者项目——
 这意味着，我编写的安卓应用可以在谷歌官方商店上线了！

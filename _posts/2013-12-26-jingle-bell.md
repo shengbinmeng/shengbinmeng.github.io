@@ -5,7 +5,6 @@ date: 2013-12-26 21:00:00
 category: 生活
 tags: [歌]
 ---
-{% include JB/setup %}
 
 > Jingle bell, Jingle bell, Jingle all the way
 

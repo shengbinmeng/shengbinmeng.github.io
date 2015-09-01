@@ -5,7 +5,6 @@ date: 2015-05-13 12:00:00
 category: 技术
 tags: [Android, Chrome, Google]
 ---
-{% include JB/setup %}
 
 [Chromium](https://www.chromium.org/)项目现在还不提供编译出完整的Android版Chrome的途径。针对Android平台的编译仅限于一些简化版的外壳程序，例如Content Shell、Chrome Shell、WebView Shell等。
 我的目标是编译出ChromeShell.apk。

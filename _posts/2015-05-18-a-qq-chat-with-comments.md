@@ -5,7 +5,6 @@ date: 2015-05-18 12:00:00
 category: 生活
 tags: [QQ, 记录, 路由器]
 ---
-{% include JB/setup %}
 
 下面是一段Alice与Bob（代指通信双方）的一次QQ聊天内容。“//”符号后面的斜体内容是注释。
 

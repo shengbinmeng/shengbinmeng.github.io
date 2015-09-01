@@ -5,7 +5,6 @@ date: 2014-04-30 19:00:00
 category: 技术
 tags: [Apple, iOS, 视频]
 ---
-{% include JB/setup %}
 
 这是一个我非常喜欢的视频，内容是关于iPhone 5c的设计。
 

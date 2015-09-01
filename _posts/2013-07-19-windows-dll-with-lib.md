@@ -4,7 +4,6 @@ title: "为何Windows下的动态库总伴随一个静态库？"
 category: 技术
 tags: [Windows, Linux, 编程, Visual Studio]
 ---
-{% include JB/setup %}
 
 今天同学来问了一个问题：Visual Studio中生成的动态库总是伴随着一个静态库文件，我把这两个文件同样进行重命名之后还能不能使用？
 

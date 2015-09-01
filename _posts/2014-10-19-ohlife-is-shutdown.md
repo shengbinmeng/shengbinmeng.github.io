@@ -5,7 +5,6 @@ date: 2014-10-19 19:00:00
 category: 技术
 tags: [网站, 日记]
 ---
-{% include JB/setup %}
 
 在[之前的一篇博客](/posts/oh-life/)中，我介绍了一个写日记的网站：OhLife（<https://ohlife.com>）。可惜的是，如今这个网站已经关闭了。
 

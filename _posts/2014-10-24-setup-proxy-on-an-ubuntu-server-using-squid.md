@@ -5,7 +5,6 @@ date: 2014-10-24 19:00:00
 category: 技术
 tags: [Linux, 代理]
 ---
-{% include JB/setup %}
 
 得益于[GitHub的教育优惠](https://education.github.com/pack)，我搞了个位于国外的虚拟主机。本着“翻墙”的初衷，我在上面用[Squid](http://www.squid-cache.org/)设置了代理。
 

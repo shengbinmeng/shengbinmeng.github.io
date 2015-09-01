@@ -5,7 +5,6 @@ date: 2015-04-14 12:00:00
 category: 技术
 tags: [Android, 编程]
 ---
-{% include JB/setup %}
 
 Android开发者网站上的一篇[文档](https://developer.android.com/guide/topics/ui/how-android-draws.html)介绍了Android系统是如何绘制视图的。
 

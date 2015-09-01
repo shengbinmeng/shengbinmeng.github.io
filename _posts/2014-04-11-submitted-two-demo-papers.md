@@ -5,7 +5,6 @@ date: 2014-04-11 12:00:00
 category: 学术
 tags: [论文]
 ---
-{% include JB/setup %}
 
 Demo文章指的是介绍所演示的技术和系统的短文。
 

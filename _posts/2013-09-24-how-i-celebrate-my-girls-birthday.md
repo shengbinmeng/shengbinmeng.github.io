@@ -5,7 +5,6 @@ date: 2013-09-24 23:00:0
 category: 生活
 tags: [Girl, 礼物]
 ---
-{% include JB/setup %}
 
 一只熊
 

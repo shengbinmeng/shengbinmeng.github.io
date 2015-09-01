@@ -6,14 +6,13 @@ category: 技术
 tags: [Markdown, Jekyll, Web]
 ---
 
-{% include JB/setup %}
-
 我在用Markdown写由Jekyll生成的博客时遇到了一个十分困扰的问题：在构造列表（HTML里的`ul`）时，
 有的列表项无法生成HTML的`li`元素，因而导致显示不正常。
 
 今天这个问题终于被我自己找到了原因和解决方法！
 
 <!--more-->
+
 问题是这样的：
 
 * 列表项1

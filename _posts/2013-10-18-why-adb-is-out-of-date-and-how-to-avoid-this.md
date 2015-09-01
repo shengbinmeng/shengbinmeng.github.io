@@ -5,7 +5,6 @@ date: 2013-10-18 20:00:0
 category: 技术
 tags: [Android]
 ---
-{% include JB/setup %}
 
 执行Android开发包中的adb命令时出现了如下错误：
 

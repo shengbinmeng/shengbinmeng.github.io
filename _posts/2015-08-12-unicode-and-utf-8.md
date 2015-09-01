@@ -5,7 +5,6 @@ date: 2015-08-12 12:00:00
 category: 技术
 tags: [编程, 知识]
 ---
-{% include JB/setup %}
 
 Unicode和UTF-8是两种完全不同的东西。本文除了介绍它们，还会解释UCS、UTF-16、UTF-32等常见的名词。
 

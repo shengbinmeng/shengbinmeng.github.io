@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  使用Jekyll和GitHub Pages搭建静态博客网站
-date:   2013-07-16 00:00:01
+date:   2013-07-16 12:00:00
 categories: 技术
 tags: [Web, Jekyll, Markdown, GitHub]
 ---

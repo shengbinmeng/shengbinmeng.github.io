@@ -5,7 +5,6 @@ date: 2013-10-16 20:00:0
 category: 技术
 tags: [iOS, Apple]
 ---
-{% include JB/setup %}
 
 下午五点，忽然接到一个陌生的座机电话。
 

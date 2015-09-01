@@ -5,7 +5,6 @@ date: 2012-07-30 00:00:01
 category: 生活
 tags: [旅行]
 ---
-{% include JB/setup %}
 
 今夏去了陕西的杨凌镇。
 

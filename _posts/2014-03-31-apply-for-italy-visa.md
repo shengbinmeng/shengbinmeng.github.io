@@ -5,7 +5,6 @@ date: 2014-03-31 21:00:00
 category: 学术
 tags: [论文, 意大利, 签证]
 ---
-{% include JB/setup %}
 
 由于[中了一篇论文](http://blog.shengbin.me/posts/another-paper-accepted/)，五月份要去意大利开会。中国公民去意大利需要申请签证。
 这个事情还是相当麻烦的，花了我不少时间。现在事情已办妥，就写个攻略，希望能对要办同样事情的人有所帮助。

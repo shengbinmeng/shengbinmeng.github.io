@@ -5,7 +5,6 @@ date: 2014-05-03 19:00:00
 category: 生活
 tags: [旅行, 意大利]
 ---
-{% include JB/setup %}
 
 今年的五一节假日，我在罗马度过。
 

@@ -5,7 +5,6 @@ date: 2013-11-03 20:00:00
 category: 技术
 tags: [编程, OpenGL]
 ---
-{% include JB/setup %}
 
 最近在做用[OpenGL](http://www.opengl.org/)显示YUV数据的工作。完成之后，决定将学到的东西整理总结一下。
 在探索OpenGL的过程中，[一篇英文的tutorial](http://db-in.com/blog/2011/01/all-about-opengl-es-2-x-part-13/)让我受益匪浅。

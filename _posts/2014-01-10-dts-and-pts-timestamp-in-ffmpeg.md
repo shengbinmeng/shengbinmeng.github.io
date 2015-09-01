@@ -5,7 +5,6 @@ date: 2014-01-10 17:00:00
 category: 技术
 tags: [编程, FFmpeg]
 ---
-{% include JB/setup %}
 
 最近在开发基于FFmpeg的播放器，对FFmpeg里的时间戳（time stamp）做了较多的了解。下面是总结。
 

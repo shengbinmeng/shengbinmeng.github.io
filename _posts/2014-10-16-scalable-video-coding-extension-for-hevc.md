@@ -5,7 +5,6 @@ date: 2014-10-16 12:00:00
 category: 学术
 tags: [SVC, HEVC]
 ---
-{% include JB/setup %}
 
 今天在组里做了一个论文阅读报告，内容是关于最新视频编码标准HEVC的可伸缩扩展。
 

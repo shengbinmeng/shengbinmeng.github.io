@@ -5,7 +5,6 @@ date: 2013-10-01 12:00:00
 category: 生活
 tags: [三国杀]
 ---
-{% include JB/setup %}
 
 本文整理了[三国杀](http://www.sanguosha.com)“一将成名2011”中新推出的武将，包括其技能和配音。
 武将按照其所属势力分门别类。

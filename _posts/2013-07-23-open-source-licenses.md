@@ -5,7 +5,6 @@ date: 2013-07-23 13:00:01
 category: 技术
 tags: [开源, Linux]
 ---
-{% include JB/setup %}
 
 开源软件的协议可以分为如下两个阵营：
 

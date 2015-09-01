@@ -5,7 +5,6 @@ date: 2013-10-15 20:00:0
 category: 技术
 tags: [Windows, VirtualBox]
 ---
-{% include JB/setup %}
 
 最近在我的台式机上安装了Windows Phone SDK 8.0，然后打开VirtualBox创建的64位Ubuntu虚拟机时，出现了如下错误提示：
 

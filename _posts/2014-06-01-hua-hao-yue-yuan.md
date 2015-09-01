@@ -5,7 +5,6 @@ date: 2014-06-01 10:00:00
 category: 生活
 tags: [歌]
 ---
-{% include JB/setup %}
 
 > 春花和秋月它最美丽，少年的情怀是最真心。
 

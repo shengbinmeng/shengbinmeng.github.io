@@ -5,7 +5,6 @@ date: 2014-04-01 22:00:00
 category: 生活
 tags: [愚人节]
 ---
-{% include JB/setup %}
 
 今天是愚人节。我吃了牙膏。
 

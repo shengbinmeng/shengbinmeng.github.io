@@ -5,7 +5,6 @@ date: 2014-08-20 17:00:00
 category: 生活
 tags: [信用卡, Girl]
 ---
-{% include JB/setup %}
 
 说几件关于信用卡的事情。
 

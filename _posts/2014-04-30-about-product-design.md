@@ -5,7 +5,6 @@ date: 2014-04-30 18:00:00
 category: 技术
 tags: [Apple, 视频]
 ---
-{% include JB/setup %}
 
 这是一个我非常喜欢的视频，内容是关于Apple公司的产品设计。
 

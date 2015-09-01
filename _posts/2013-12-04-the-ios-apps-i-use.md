@@ -6,11 +6,10 @@ category: 技术
 tags: [iOS]
 ---
 
-{% include JB/setup %}
-
 之前换新的MacBook时写过[《我使用Mac电脑的必备应用》](http://blog.shengbin.me/posts/my-mac-apps/)。最新换了新的iPhone，顺便把自己常用的iOS应用也总结一下。
 
 <!--more-->
+
 我不喜欢在系统里安装过多的App，也不喜欢复杂的主屏幕。我在iOS系统上所使用的App并不多，也基本不玩游戏。下面列出的是新换手机之后很快就需要安装的一些应用。
 
 * IPGateway：在北大校园网内访问Internet需要登录网关，我使用自己发布的这款App。（App Store链接：<https://itunes.apple.com/cn/app/ipgateway/id493761518?mt=8>）

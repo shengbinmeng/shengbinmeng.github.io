@@ -6,7 +6,6 @@ category: 技术
 tags: [Android, Chrome, Google]
 published: false
 ---
-{% include JB/setup %}
 
 在之前的[一篇文章](/posts/build-chromium-for-android/)中，我介绍了Android版Chromium的编译。当时[Chromium](https://www.chromium.org/)项目还未提供编译出完整的Android版Chrome的途径，所以仅仅编出了简化版的外壳程序ChromeShell.apk。在这篇文章中，我介绍如何将ChromeShell从整个Chromium项目中抽取出来，从而方便对其定制。
 

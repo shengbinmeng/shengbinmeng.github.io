@@ -5,7 +5,6 @@ date: 2013-11-01 12:00:00
 category: 技术
 tags: [iOS, Android]
 ---
-{% include JB/setup %}
 
 如题。如下：
 

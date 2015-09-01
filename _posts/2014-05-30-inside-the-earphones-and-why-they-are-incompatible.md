@@ -5,7 +5,6 @@ date: 2014-05-30 19:00:00
 category: 技术
 tags: [耳机, 硬件]
 ---
-{% include JB/setup %}
 
 先上个电路图：
 

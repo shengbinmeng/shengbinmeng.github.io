@@ -5,7 +5,6 @@ date: 2013-11-24 17:00:00
 category: 技术
 tags: [编程, C/C++]
 ---
-{% include JB/setup %}
 
 你能看出下面这段代码有什么问题吗？
 

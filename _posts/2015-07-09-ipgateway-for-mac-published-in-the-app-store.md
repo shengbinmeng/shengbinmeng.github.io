@@ -5,7 +5,6 @@ date: 2015-07-09 12:00:00
 category: 技术
 tags: [Mac, Apple]
 ---
-{% include JB/setup %}
 
 今天接到Apple的通知说我提交的Mac应用IPGateway已经通过审核，在应用商店上线了。
 

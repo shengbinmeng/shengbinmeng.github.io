@@ -5,7 +5,6 @@ date: 2013-12-12 21:00:0
 category: 生活
 tags: [Girl]
 ---
-{% include JB/setup %}
 
 > 我要吃鸡腿！我要吃猪蹄！
 

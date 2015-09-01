@@ -5,7 +5,6 @@ date: 2014-09-12 19:00:00
 category: 技术
 tags: [Apple, 硬件, ARM]
 ---
-{% include JB/setup %}
 
 最近苹果公司发布了新手机iPhone 6/iPhone 6 Plus，里面用的是苹果A8。本文是一篇由此引发的大杂烩。要说的内容有三部分，依次是计算机体系结构、ARM和苹果A系列芯片。
 

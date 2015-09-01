@@ -5,7 +5,6 @@ date: 2014-07-12 17:00:00
 category: 技术
 tags: [Web, 中国特色]
 ---
-{% include JB/setup %}
 
 本月初的时候，微软的网盘服务OneDrive（原名SkyDrive）就不能通过浏览器访问了。据[考证](http://hjc.im/explanation-why-onedrive-blocked/)，这是因为我国伟大的防火墙GFW对其域名onedrive.com进行了DNS污染。
 

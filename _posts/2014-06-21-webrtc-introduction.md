@@ -5,7 +5,6 @@ date: 2014-06-21 17:00:00
 category: 技术
 tags: [Web]
 ---
-{% include JB/setup %}
 
 WebRTC全称是Web Real Time Communication，即网络实时通信。这是一个正在制定中的Web标准，其目的是使网络浏览器之间在不依赖别的插件的前提下能够进行实时的多媒体（视频和音频）通信。
 

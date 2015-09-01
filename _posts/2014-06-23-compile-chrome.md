@@ -5,7 +5,6 @@ date: 2014-06-23 17:00:00
 category: 技术
 tags: [Chrome, Linux, VirtualBox]
 ---
-{% include JB/setup %}
 
 为了解[WebRTC](/posts/webrtc-introduction/)的实现，我按照Chromium项目[官网](https://code.google.com/p/chromium/)上的[说明](https://code.google.com/p/chromium/wiki/LinuxBuildInstructions)从源码编译了Chrome。
 

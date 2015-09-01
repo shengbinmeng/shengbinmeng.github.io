@@ -5,7 +5,6 @@ date: 2014-03-28 21:00:00
 category: 技术
 tags: [Windows]
 ---
-{% include JB/setup %}
 
 
 最近发现学校的正版软件网站上提供了Windows 8.1的下载和激活，于是就把实验室电脑进行了系统升级。

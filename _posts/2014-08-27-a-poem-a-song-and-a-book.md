@@ -5,7 +5,6 @@ date: 2014-08-27 12:00:00
 category: 生活
 tags: [诗词, 歌, 书]
 ---
-{% include JB/setup %}
 
 # 诗
 

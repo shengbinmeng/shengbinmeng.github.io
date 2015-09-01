@@ -5,7 +5,6 @@ date: 2012-10-26 12:00:0
 category: 学术
 tags: [H.264, SVC, 建模]
 ---
-{% include JB/setup %}
 
 这是今天在组里讲的讨论班报告。介绍的这篇文章主要解决的是H264/SVC中的码流截取问题，其主要贡献在于用了一个基于训练的模型来估计失真。
 论文可以在<http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4926224>下载。下面是报告的PPT。

@@ -5,7 +5,6 @@ date: 2013-08-30 20:00:0
 category: 技术
 tags: [Web, 域名]
 ---
-{% include JB/setup %}
 
 之前在计算机网络课上曾详细学过域名系统（Domain Name System， DNS）。最近又重新了解了一下其相关知识和实际过程，并按过程中事件发生的顺序解释于此。
 

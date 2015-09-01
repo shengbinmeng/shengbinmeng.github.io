@@ -5,7 +5,6 @@ date: 2011-11-01 12:00:0
 category: 学术
 tags: [H.264, SVC]
 ---
-{% include JB/setup %}
 
 这是今天在组里讲的讨论班报告，这次报告主要介绍了什么是SVC码流截取，以及一种利用线性误差模型进行码流截取的方法。
 相关论文可以在<http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6271639>下载。下面是报告的PPT。

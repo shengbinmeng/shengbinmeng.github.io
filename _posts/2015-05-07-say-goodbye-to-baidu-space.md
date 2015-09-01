@@ -5,7 +5,6 @@ date: 2015-05-07 12:00:00
 category: 技术
 tags: [百度, 网站]
 ---
-{% include JB/setup %}
 
 今天百度空间彻底关闭了。
 

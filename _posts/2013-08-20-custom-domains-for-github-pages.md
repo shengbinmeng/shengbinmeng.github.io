@@ -5,7 +5,6 @@ date: 2013-08-20 20:00:0
 category: 技术
 tags: [Web, GitHub, 域名]
 ---
-{% include JB/setup %}
 
 最近彻底搞清楚了GitHub Pages自定义域名的机制和使用方法。
 

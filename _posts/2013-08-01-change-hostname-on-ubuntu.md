@@ -5,7 +5,6 @@ date: 2013-08-01 17:00:0
 category: 技术
 tags: [Linux]
 ---
-{% include JB/setup %}
 
 最近因为实验室工作的需要，又开始使用Ubuntu。安装系统的时候没注意选好机器名称(hostname)，导致后来想修改。
 

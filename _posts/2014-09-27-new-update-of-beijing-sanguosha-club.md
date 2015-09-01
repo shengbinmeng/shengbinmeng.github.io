@@ -5,7 +5,6 @@ date: 2014-09-27 17:00:00
 category: 生活
 tags: [网站, 三国杀, 信用卡]
 ---
-{% include JB/setup %}
 
 我在之前的一篇[文章](/posts/let-us-meet-up/)里提到过[北京三国杀俱乐部](http://www.meetup.com/beijing-sanguosha)。它是我在Meetup网站上创建的小组，目的是组织三国杀面杀。
 从今天起，该俱乐部有了新的组织者。

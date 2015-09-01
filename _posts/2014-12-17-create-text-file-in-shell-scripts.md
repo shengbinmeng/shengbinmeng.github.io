@@ -5,7 +5,6 @@ date: 2014-12-17 12:00:00
 category: 技术
 tags: [Linux, Shell]
 ---
-{% include JB/setup %}
 
 在Linux上写shell脚本的一个很重要的意图是自动化。假如我们希望自动生成一个具有特定内容的文本文件，应该怎么实现呢？
 

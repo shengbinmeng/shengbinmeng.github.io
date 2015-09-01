@@ -5,7 +5,6 @@ date: 2014-12-21 12:00:00
 category: 生活
 tags: [想法, 中国特色]
 ---
-{% include JB/setup %}
 
 > Ernest Hemingway once wrote, "The world is a fine place and worth fighting for." I agree with the second part.  
 海明威曾说过，“这世界是个不错的地方，值得我们为之努力”。我同意后半句。

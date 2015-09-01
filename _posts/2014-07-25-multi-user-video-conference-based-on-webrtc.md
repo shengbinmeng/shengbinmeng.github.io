@@ -5,7 +5,6 @@ date: 2014-07-25 17:00:00
 category: 技术
 tags: [Web, 开源]
 ---
-{% include JB/setup %}
 
 最近两周在调研和搭建基于WebRTC的多人视频会议系统。目前已经搭建成功，可以在<http://jitsi.shengbin.me/>试用。
 

@@ -5,7 +5,6 @@ date: 2013-07-27 18:00:0
 category: 技术
 tags: [Linux, Vim]
 ---
-{% include JB/setup %}
 
 Emacs和vim是Linux系统下最著名的两个文本编辑器。我使用vim。vim这个名称来源于vi improved，表示在其前身vi的基础上增加了一些特性。有的系统默认不带vim，但基本上都带有vi。
 对于新手来说，本文下面介绍的这些vi/vim操作就足以胜任Linux下文本文件的查看和编辑任务了。如果不想记忆繁琐的快捷键，可以考虑像新手一样使用vi/vim。

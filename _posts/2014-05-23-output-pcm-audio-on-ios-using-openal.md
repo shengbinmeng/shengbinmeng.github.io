@@ -5,7 +5,6 @@ date: 2014-05-23 19:00:00
 category: 技术
 tags: [iOS, OpenAL]
 ---
-{% include JB/setup %}
 
 我在[《iOS和Android上的音频输出》](/posts/audio-output-on-ios-and-android/)这篇文章中提到，如果用系统提供的类来输出音频，只能是拉的模式。
 但如果希望像Android上的AudioTrack那样用推的方式输出音频，可以采用[OpenAL](http://en.wikipedia.org/wiki/OpenAL)。

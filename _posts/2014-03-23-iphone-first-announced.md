@@ -5,7 +5,6 @@ date: 2014-03-23 19:00:00
 category: 技术
 tags: [视频, iPhone, Apple]
 ---
-{% include JB/setup %}
 
 
 最近看到一个很不错的视频。该视频回顾了乔布斯第一次发布iPhone时的演讲。

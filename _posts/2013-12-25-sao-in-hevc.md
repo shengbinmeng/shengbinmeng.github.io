@@ -5,7 +5,6 @@ date: 2013-12-25 13:00:00
 category: 学术
 tags: [HEVC]
 ---
-{% include JB/setup %}
 
 在最新的视频编码标准HEVC中，环内滤波除了去块滤波外，还增加了一个被称为Sample Adaptive Offset（SAO）的过程。
 

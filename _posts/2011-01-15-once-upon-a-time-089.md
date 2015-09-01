@@ -5,7 +5,6 @@ date: 2011-01-15 12:00:02
 category: 朝花夕拾
 tags: [梦之栖居, 2011年]
 ---
-{% include JB/setup %}
 
 > 这篇文章属于[《梦之栖居》](/posts/where-the-dreams-reside/)系列，写于2011年。
 	

@@ -5,7 +5,6 @@ date: 2014-02-19 17:00:00
 category: 技术
 tags: [编程, FFmpeg, 多线程, 录像, Android]
 ---
-{% include JB/setup %}
 
 最近在开发基于FFmpeg的Android手机录像软件。程序写好之后测试发现：录制音视频混合的文件总是出错，而关掉声音只录视频则没问题。
 经过调试，原来是多线程导致的。

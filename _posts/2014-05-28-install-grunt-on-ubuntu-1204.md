@@ -5,7 +5,6 @@ date: 2014-05-28 19:00:00
 category: 技术
 tags: [Linux]
 ---
-{% include JB/setup %}
 
 
 JavaScript任务运行工具[Grunt](http://www.gruntjs.org/)类似GNU Make，可以自动化地执行一些任务。今天在我的Ubuntu 12.04系统上安装Grunt时遇到了一些问题。

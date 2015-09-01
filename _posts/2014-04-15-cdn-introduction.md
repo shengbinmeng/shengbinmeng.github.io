@@ -5,7 +5,6 @@ date: 2014-04-15 17:00:00
 category: 技术
 tags: [Web, 域名]
 ---
-{% include JB/setup %}
 
 CDN的全称是Content Delivery Network，即内容分发网络。采用CDN后，同一份网络资源在多个服务器上都有拷贝，
 当用户访问某一内容时，CDN系统会根据当时的网络状况和用户所处位置等因素来选择一个最合适的服务器进行连接。

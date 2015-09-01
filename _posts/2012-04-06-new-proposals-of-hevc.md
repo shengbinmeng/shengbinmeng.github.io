@@ -5,7 +5,6 @@ date: 2012-04-06 12:00:0
 category: 学术
 tags: [HEVC]
 ---
-{% include JB/setup %}
 
 这是今天在组里讲的讨论班报告。讲的这篇文章主要介绍了三星公司为新的视频编码标准HEVC提的一些技术提案。
 论文可以在<http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5638199>下载。下面是报告的PPT。

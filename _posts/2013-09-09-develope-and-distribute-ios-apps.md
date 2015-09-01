@@ -5,7 +5,6 @@ date: 2013-09-09 20:00:0
 category: 技术
 tags: [Xcode, iOS]
 ---
-{% include JB/setup %}
 
 本文介绍iOS应用开发和分发的方式和流程。前提是必须加入苹果公司的iOS开发者项目，以获得证书（Certificate）。
 

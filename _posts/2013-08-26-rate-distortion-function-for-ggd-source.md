@@ -5,7 +5,6 @@ date: 2013-08-26 17:30:01
 category: 学术
 tags: [信源编码, GGD, 率失真, 建模]
 ---
-{% include JB/setup %}
 
 论文[《Statistical Model, Analysis and Approximation of Rate-Distortion Function in MPEG-4 FGS Videos》](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1626284&tag=1)
 结合了分析型的方法和经验型的方法对广义高斯分布（GGD）信源的率失真函数进行了建模。

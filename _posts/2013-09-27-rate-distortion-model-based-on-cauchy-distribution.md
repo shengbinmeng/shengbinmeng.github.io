@@ -5,7 +5,6 @@ date: 2013-09-27 16:30:01
 category: 学术
 tags: [信源编码, 率失真, 建模, Cauchy]
 ---
-{% include JB/setup %}
 
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">

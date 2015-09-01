@@ -5,7 +5,6 @@ date: 2013-09-25 17:00:0
 category: 学术
 tags: [信源编码, 建模]
 ---
-{% include JB/setup %}
 
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">

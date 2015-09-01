@@ -5,7 +5,6 @@ date: 2014-02-14 09:09:09
 category: 生活
 tags: [Girl, 情人节, 视频, 爱, 礼物]
 ---
-{% include JB/setup %}
 
 今天是情人节。这是我送的情人节礼物。
 

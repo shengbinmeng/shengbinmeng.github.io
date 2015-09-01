@@ -5,7 +5,6 @@ date: 2015-04-30 12:00:00
 category: 技术
 tags: [Chrome, OS X, 歌, Mac]
 ---
-{% include JB/setup %}
 
 不要忘记体验美好的东西，无论使用技术、软件还是工具。
 

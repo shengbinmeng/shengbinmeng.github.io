@@ -5,7 +5,6 @@ date: 2014-11-25 12:00:00
 category: 技术
 tags: [OS X, Matlab]
 ---
-{% include JB/setup %}
 
 许久不用Matlab，今天在Mac上想用的时候却发现无法启动了。最近刚把系统升级到了OS X 10.10，应该是这次升级导致了原来能用的程序出了问题。
 

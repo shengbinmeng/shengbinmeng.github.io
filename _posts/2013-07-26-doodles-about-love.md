@@ -5,7 +5,6 @@ date: 2013-07-26 23:00:01
 category: 生活
 tags: [Girl]
 ---
-{% include JB/setup %}
 
 手机QQ有个很少人用的功能叫做涂鸦。以下是我随便涂的。
 

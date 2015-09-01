@@ -5,7 +5,6 @@ date: 2014-11-12 12:00:00
 category: 技术
 tags: [OS X, Mac, Linux]
 ---
-{% include JB/setup %}
 
 OS X系统与Linux系统一样，底层的基础都是Unix。这意味着为Linux开发的各种命令行程序也能在OS X上使用。我们固然可以从这些程序的源码来生成它们，
 但更方便的途径是像其他Linux发行版一样，使用一个程序包管理工具（如Ubuntu上的apt或者RedHat上的yum）。

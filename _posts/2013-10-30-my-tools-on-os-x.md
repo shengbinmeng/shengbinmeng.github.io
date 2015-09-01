@@ -5,7 +5,6 @@ date: 2013-10-30 23:00:0
 category: 技术
 tags: [Mac, OS X, 开源]
 ---
-{% include JB/setup %}
 
 我在OS X系统上需要使用不少命令行工具，它们被放在~/tools文件夹下。
 以下是对这些工具的简单说明和相关链接。
