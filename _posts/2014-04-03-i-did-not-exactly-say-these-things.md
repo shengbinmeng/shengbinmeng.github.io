@@ -10,6 +10,7 @@ tags: [高中]
 我在这里想说明，那上面的话不是我的原话。
 
 <!--more-->
+
 照片如下：
 
 ![](/images/2014-04-03-high-school-poster.png)

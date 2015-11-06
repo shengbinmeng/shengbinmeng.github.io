@@ -10,6 +10,7 @@ tags: [iOS, OpenAL]
 但如果希望像Android上的AudioTrack那样用推的方式输出音频，可以采用[OpenAL](http://en.wikipedia.org/wiki/OpenAL)。
 
 <!--more-->
+
 OpenAL与OpenGL是同一个组织提出的标准，两者的目的、机制，甚至API都非常相似。首先，初始化一个渲染环境，包括配置设备、生成缓冲区，确定参数，等等。
 然后就可以向缓冲区写入数据并调用渲染了。
 

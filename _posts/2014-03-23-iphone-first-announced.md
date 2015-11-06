@@ -11,6 +11,7 @@ tags: [视频, iPhone, Apple]
 乔布斯的语音被幻化成多彩的线条或图文，和谐地呈现了其中的韵律和激情。视频如下，不妨一看。
 
 <!--more-->
+
 <video width="640" height="360" src="http://shengbin-static.stor.sinaapp.com/iphone-first-announced.mp4" 
 type="video/mp4" preload="auto" controls="controls">
 Your browser does not support the video tag.
