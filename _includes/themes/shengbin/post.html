@@ -48,7 +48,7 @@
     {% include JB/comments %}
     
 	<!-- Duoshuo Comment BEGIN -->
-	<div class="ds-thread" data-title="{{ page.title }}" data-url="http://blog.shengbin.me{{ BASE_PATH }}{{ page.url }}"></div>
+	<div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="http://blog.shengbin.me{{ BASE_PATH }}{{ page.url }}"></div>
 	<script type="text/javascript">
 	var duoshuoQuery = {short_name:"blog-shengbin"};
 	(function() {
