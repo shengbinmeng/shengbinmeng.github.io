@@ -9,10 +9,8 @@ tags: [Girl, 情人节, 视频, 爱, 礼物]
 今天是情人节。这是我送的情人节礼物。
 
 <!--more-->
-<video width="640" height="360" src="http://shengbin-static.stor.sinaapp.com/cuicui-and-me.mp4" 
-type="video/mp4" preload="auto" controls="controls" autoplay="autoplay">
-Your browser does not support the video tag.
-</video>
+
+<iframe height=500 width=700 src="http://player.youku.com/embed/XNjcyNzQ2MzU2" frameborder=0 allowfullscreen></iframe>
 
 上面的视频亦可以前往优酷观看：
 
