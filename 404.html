@@ -1,9 +1,18 @@
+<script>
+  // on 2016-02-01 GitHub Pages upgraded to Jekyll3, which broke all blog posts with trailing slashes
+  // and there are tons of links out there on the web to posts with a trailing slash, so can't ignore it
+  var url = location.href;
+  if(url.substr(url.length - 1) === '/') {
+    window.location = url.substr(0, url.length - 1);
+  }
+</script>
+
 Sorry, the page you request does not exist.
 <br>
 <br>
 <p>Email to complain about this: <a href="mailto:meng@shengbin.me">meng@shengbin.me</a></p>
 <p>Go to the blog's home page: <a href="http://blog.shengbin.me">http://blog.shengbin.me</a></p>
-<p>Go to the blogger's landing page: <a href="http://www.shengbin.me">http://www.shengbin.me</a></p>
+<p>Go to the blogger's home page: <a href="http://www.shengbin.me">http://www.shengbin.me</a></p>
 
 <br>
 *****************404*******************
