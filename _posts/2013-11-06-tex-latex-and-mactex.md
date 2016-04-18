@@ -13,7 +13,7 @@ LaTeX项目官网[告诉](http://latex-project.org/ftp.html)我说LaTeX可以随
 
 <!--more-->
 
-##TeX
+## TeX
 
 首先，TeX是最早由[Donald Knuth](http://baike.baidu.com/view/2193127.htm)开发的Unix计算机程序。它是一个排版引擎，能够用来生成漂亮的文档。
 
@@ -24,7 +24,7 @@ LaTeX项目官网[告诉](http://latex-project.org/ftp.html)我说LaTeX可以随
 
 最后还应指出，TeX是下面要介绍的东西的基础。没有TeX，就没有其他。
 
-##LaTeX
+## LaTeX
 
 上面说到，一般大家嫌直接使用TeX控制序列麻烦，都会选择使用宏。于是就有人编写了一些好用的宏或者适用于特定文体的宏，将它们组合起来发布。
 这样集在一起的宏的组合被称为“格式”（Format）。LaTeX就是一种格式。
@@ -36,7 +36,7 @@ LaTeX还支持导入额外的“包”（package），从而无限扩展其功�
 除了LaTeX外，还存在其他的格式。例如，ConTeXt是一种用于通常出版的格式，特点是非常结构化，使作者可以专注于内容；
 TeX的开发者最早也开发了一种格式，叫做Plain TeX；后人在Plain TeX基础上进行扩展，就出现了Eplain TeX；等等。
 
-##MacTeX
+## MacTeX
 
 我在Mac上安装的是MacTeX。这是一个TeX的分发包。MacTeX的基础是TeX Live，一个多平台的TeX发行版。
 这个分发包巨大，多达几个G！这怎么也不像是Unix程序分发包的风格呀。确实，MacTeX不仅包含原来的Unix程序TeX，还包含许多别的内容。

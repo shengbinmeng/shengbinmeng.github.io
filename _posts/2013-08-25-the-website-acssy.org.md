@@ -11,14 +11,14 @@ tags: [Web]
 
 <!--more-->
 
-###登陆管理后台
+### 登陆管理后台
 使用用户名和密码在<http://acssy.org/wp-admin>登录网站后台。网站内容主要以Pages和Posts这两种形式呈现。后台管理也主要是管理这两部分内容。下图标注出了这两个链接。
 
 <!-- [![](/images/2013-08-25-posts-and-pages.png)](/images/2013-08-25-posts-and-pages.png "点击看大图") -->
 <a href="/images/2013-08-25-posts-and-pages.png" title="点击看大图" target="_blank">
 <img src="/images/2013-08-25-posts-and-pages.png" wdith="437px"/></a>
 
-###Pages（页面）
+### Pages（页面）
 首先点击Pages，得到如下图所示的Page列表。
 
 <a href="/images/2013-08-25-page-list.png" title="点击看大图" target="_blank">
@@ -39,7 +39,7 @@ Page是网站中相对比较固定的内容。网站首页的Tab菜单，里面�
 <a href="/images/2013-08-25-upload-media.png" title="点击看大图" target="_blank">
 <img src="/images/2013-08-25-upload-media.png" /></a>
 
-###Posts（帖子）
+### Posts（帖子）
 网站内容的更新大多是以Posts（帖子）的形式，平时的管理操作也主要是针对这个。网站的帖子分为三个类别（Category）：News、Upcoming Events、Featured。
 前两类对应首页右下角的两栏，最后一类对应首页以动画图片展示的特别内容。一个帖子可以同时属于多个类别，但根据网站逻辑，一般不让帖子同属于News和Upcoming Events这两个类别。
 
@@ -52,7 +52,7 @@ Page是网站中相对比较固定的内容。网站首页的Tab菜单，里面�
 
 要想将帖子里的图片在首页动画中显示，首先为该帖子增加Featured分类；其次，在图中A处增加一个名为articleimg的Custom Field，将其值设置为图片的URL地址。
 
-###网站首页
+### 网站首页
 上面已经提到，网站首页的Tab菜单、动态图片、右下角的列表都取决于Pages和Posts的管理。首页左侧栏的内容在home.php文件中实现，如要更改需编辑该文件。
 下面说明如何更改首页左侧栏的Sponsors。
 
@@ -69,5 +69,5 @@ Editor的界面如下图所示。点击下图中A处开始编辑home.php。
 Sponsors对应上图中B处的代码。方框中是一个Sponsor。如要添加，紧接着其下方复制这段代码，并将其中的链接更新。
 代码中src=的是图标的地址，href=的是点击Logo后跳转到的商家的链接。
 
-###最后
+### 最后
 若遇到本文未说明的问题，向略懂Web技术的人寻求帮助即可。

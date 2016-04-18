@@ -11,35 +11,35 @@ tags: [Web, Jekyll, Markdown, GitHub]
 
 <!--more-->
 
-##涉及的几项技术
+## 涉及的几项技术
 
-###Jekyll
+### Jekyll
 
 [http://jekyllrb.com](http://jekyllrb.com)  
 这是一个可以用来写博客的静态网站生成器。它接收一个特定结构的目录，读取、分析、处理其中的文件（包括md、html、txt、css、资源文件等），将其转换成一个静态站点。
 
-###Liquid
+### Liquid
   
 [http://wiki.shopify.com/Liquid](http://wiki.shopify.com/Liquid)  
 这是一个模版语言。其中有两类标记：Output和Tag。Output用于把变量值输出，Tag用于逻辑控制（其中有些是Block Tag）。{% raw %} Output例如"{{ site.author }}"，
 Tag例如"{% if site.author == 'shengbin' %}...{% endif %}"，"{% assign variable = value %}"（前者是Block Tag）。{% endraw %}
 
-###Pygment
+### Pygment
   
 [http://pygments.org](http://pygments.org)  
 这是一个用Python实现的语法高亮的库。接收一段代码（Code），并指定其语言（Lexer）和输出文本格式（Formatter），生成代码高亮的带样式（Style）的输出文本（Text），如HTML。
 
-###Markdown
+### Markdown
  
 [http://daringfireball.net/projects/markdown/](http://daringfireball.net/projects/markdown/)  
 这是一种纯文本语言，用简单的标记来表示格式。它目的是为了方便地生成HTML，同时又比HTML更具备可读性和易写性。
 
-###YAML
+### YAML
 
 [http://yaml.org/](http://yaml.org/)  
 这是一个数据序列化的格式，类似JSON。它主要用来表示结构化的数值，如列表，键值对等。在Jekyll中，它的作用在于提供front matter（详情如下）。
 
-##网站生成过程
+## 网站生成过程
 
 Front matter是放在一个文件最开头的几行文本。Jekyll对含有front matter的文本文件进行转换，对其他目录和文件则直接拷贝。
 对于要转换的文本文件，例如每篇博客的md文件，进行如下处理：结合其中的front matter，将其嵌进模版布局文件中（Layouts），然后送给Liquid和Pygment。布局文件一般含有大量的Liquid标记，

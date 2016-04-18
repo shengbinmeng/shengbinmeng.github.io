@@ -11,7 +11,7 @@ Shell是Linux上的“居家旅行必备品”。它既是在终端里用命令�
 
 <!--more-->
 
-##登录shell与非登录shell
+## 登录shell与非登录shell
 
 Shell可以分为登录shell（login shell）和非登录shell（non-login shell）。
 

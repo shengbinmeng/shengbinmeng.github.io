@@ -10,7 +10,7 @@ tags: [网络]
 
 <!--more-->
 
-##SCTP
+## SCTP
 
 SCTP全称是Stream Control Transmission Protocol，即流控制传输协议。它是一个传输层协议，实现的是与传统的TCP和UDP类似的功能。其特点主要有：
 
@@ -20,13 +20,13 @@ SCTP全称是Stream Control Transmission Protocol，即流控制传输协议。�
 
 3. 在网络安全方面，SCTP增加了防止恶意攻击的措施。不同于TCP连接采用的三次握手机制，SCTP连接采用四次握手机制，有效地防止了类似于SYN Flooding的拒绝服务（DoS）攻击。
 
-##DTLS
+## DTLS
 
 了解DTLS先要了解TLS。TLS是传输层安全（Transport Layer Security）的简称，目的是在传输层协议上增加安全机制。我们平时上网遇到的https网址，就是表明该网站使用了传输层安全TLS（或者它的前任技术Secure Sockets Layer，SSL）。常用的传输层协议有TCP和UDP两种，而TLS只能用于TCP。随着越来越多的UDP应用也产生了安全传输的需求，TLS也开始向UDP应用移植。DTLS（Datagram TLS）便是扩展TLS框架使之支持UDP的结果。
 
 例如，RTP是典型的基于UDP的应用。为了给RTP传输增加安全性，SRTP（Secure RTP）作为RTP的一个profile被开发出来。SRTP中的密钥管理、参数协商等过程就可以用DTLS实现（参见DTLS-SRTP的[rfc文档](http://tools.ietf.org/html/rfc5764)）。
 
-##XMPP
+## XMPP
 
 XMPP全称是Extensible Messaging and Presence Protocol，即可扩展通信和表示协议。它是一种即时通信协议，主要是实现文字聊天。XMPP的前身是Jabber，一个开源的即时通信协议。Jabber被IETF标准化为XMPP。Google Talk用的就是它。
 
@@ -40,7 +40,7 @@ XMPP传输的数据是XML格式的。客户端或服务器发送的所有文本�
 
 XMPP是应用层协议，它通常运行在TCP上。
 
-##SDP
+## SDP
 
 SDP全称是Session Description Protocol，即会话描述协议。它跟传输没太大关系，更多地是提供一个描述多媒体会话的规范。
 
