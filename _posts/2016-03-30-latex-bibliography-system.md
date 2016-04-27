@@ -2,7 +2,7 @@
 layout: post
 title: LaTeX的参考文献系统
 date: 2016-03-30 14:00:00
-category: 技术
+category: 学术
 tags: [LaTeX]
 ---
 
