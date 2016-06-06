@@ -1,6 +1,6 @@
 ---
 title: 让我们一起翻墙
-date: 2016-06-04 12:00:00
+date: 2016-06-05 12:00:00
 category: 技术
 tags: [Linux, 中国特色, Google]
 ---
