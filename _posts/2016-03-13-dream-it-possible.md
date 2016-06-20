@@ -55,4 +55,4 @@ tags: [毕业, 华为, 歌]
 
 	We'll dream it possible
 	
-这是华为消费者业务的品牌歌曲。它有对应的中文填词版《我的梦》。华为将是我毕业后的第一个雇主。And we'll dream it possible。
+这是华为消费者业务的品牌歌曲。它有对应的中文填词版《我的梦》。华为或许将是我毕业后的第一个雇主。And we'll dream it possible。
