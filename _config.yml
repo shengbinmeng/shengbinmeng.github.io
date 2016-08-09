@@ -7,6 +7,7 @@ paginate: 10
 description_length: 200
 gems: [jekyll-paginate]
 timezone: Asia/Shanghai
+future: true
 
 defaults:
   -
