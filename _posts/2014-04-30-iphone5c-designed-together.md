@@ -1,9 +1,9 @@
 ---
 layout: post
 title: iPhone 5c的设计
-date: 2014-04-30 19:00:00
+date: 2014-04-30 12:00:00
 category: 技术
-tags: [Apple, iOS, 视频]
+tags: [Apple, iOS, 视频, 设计]
 ---
 
 这是一个我非常喜欢的视频，内容是关于iPhone 5c的设计。
