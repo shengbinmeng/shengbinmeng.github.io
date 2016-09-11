@@ -35,7 +35,7 @@ tags: [旅行]
 其他吃饭、交通等杂费：100，  
 总计721+140+960+175+100，约2100元。
 
-照片参见相册：[长白山](http://xiangce.baidu.com/picture/album/list/5b10f4f2856098dfda50841baf584d08006a02ad)。下面只放一张：
+照片参见相册：[长白山](https://pan.baidu.com/s/1sl1pLAd)。下面只放一张：
 
 ![](/images/2015-03-01-mountain-man.jpg)
 （没错，那是我）
