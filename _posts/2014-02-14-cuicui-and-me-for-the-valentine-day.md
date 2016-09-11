@@ -10,14 +10,8 @@ tags: [Girl, 情人节, 视频, 爱, 礼物]
 
 <!--more-->
 
-<iframe height=500 width=700 src="http://player.youku.com/embed/XNjcyNzQ2MzU2" frameborder=0 allowfullscreen></iframe>
+<iframe height="500px" width="700px" src="http://player.youku.com/embed/XNjcyNzQ2MzU2" frameborder="false" allowfullscreen></iframe>
 
-上面的视频亦可以前往优酷观看：
-
-<http://v.youku.com/v_show/id_XNjcyNzQ2MzU2.html>
-
-或者从百度网盘下载：
-
-<http://pan.baidu.com/s/1CJEOY>
+上面的视频也可从百度网盘下载：<http://pan.baidu.com/s/1CJEOY>
 
 后宫佳丽三千人，三千宠爱在一身。情人节快乐！
