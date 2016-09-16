@@ -3,12 +3,13 @@ layout: post
 title: 关于域名解析
 date: 2013-08-30 20:00:0
 category: 技术
-tags: [Web, 域名]
+tags: [Web, 域名, DNS]
 ---
 
 之前在计算机网络课上曾详细学过域名系统（Domain Name System， DNS）。最近又重新了解了一下其相关知识和实际过程，并按过程中事件发生的顺序解释于此。
 
 <!--more-->
+
 每个操作系统内部集成有一个DNS解析器（DNS Resolver，DR），我们称之为DR0。别的应用程序问它一个域名的IP地址是什么，它必须回答xxx.xxx.xxx.xxx。
 
 DR0首先检查它本机上的缓存，如果有答案，直接回复给应用程序。否则DR0通过向一个DNS服务器（DNS Server，DS）发起DNS查询 （DNS Query，DQ）来获取答案。我们把DR0直接联系的那个DS称为DS1。DS1的IP地址由用户在TCP/IP属性里手动设置（或者由DHCP自动设置）。
