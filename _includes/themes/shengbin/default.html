@@ -26,36 +26,6 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
-  </head>
-
-  <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <ul class="nav">
-            <li><a href="/about.html">About / 关于</a></li>
-            <li><a href="/archive.html">Archive / 存档</a></li>
-            <li><a href="/explore.html">Explore / 浏览</a></li>
-            <li><a href="/rss.xml" target="_blank">RSS / 订阅</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-narrow">
-
-      <div class="content">
-        {{ content }}
-      </div>
-      <hr>
-      <footer>
-        &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with help from <a href="http://jekyllrb.com" target="_blank" title="The simple, blog-aware, static site generator.">Jekyll</a>. Hosted by <a href="https://pages.github.com/" target="_blank" title="GitHub Pages">GitHub</a>.
-        <br><br>
-      </footer>
-
-    </div>
-
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -64,5 +34,34 @@
       ga('create', 'UA-30081581-4', 'auto');
       ga('send', 'pageview');
     </script>
+  </head>
+
+  <body>
+  
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <ul class="nav">
+            <li><a href="/about">About / 关于</a></li>
+            <li><a href="/archive">Archive / 存档</a></li>
+            <li><a href="/explore">Explore / 浏览</a></li>
+            <li><a href="/rss.xml" target="_blank">RSS / 订阅</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+      <div class="content">
+        {{ content }}
+      </div>
+      <hr>
+      <footer>
+        &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with help from <a href="http://jekyllrb.com" target="_blank" title="The simple, blog-aware, static site generator.">Jekyll</a>. Hosted by <a href="https://pages.github.com/" target="_blank" title="GitHub Pages">GitHub</a>.
+        <br><br>
+      </footer>
+    </div>
+    
   </body>
 </html>
