@@ -30,24 +30,24 @@ tags: [OS X, Mac, DNS]
 在旧办公室时，这个查询没有返回结果，所以就用了第4项的结果；在新办公室时，这个查询返回了“localhost”，所以就显示了这个。
 第5项虽然也得到“localhost”的结果，但它排在4之后，所以不是它的原因。
 
-在新办公室我电脑的IP地址是192.168.3.101，对其进行反向DNS查询（DNS查询是由名称得到IP地址，反向DNS查询与之相反，是由IP得到名称）的结果如下：
+在新办公室我电脑的IP地址是10.9.26.121（这是一个局域网IP），对其进行反向DNS查询（DNS查询是由名称得到IP地址，反向DNS查询与之相反，是由IP得到名称）的结果如下：
 
-	Shengbins-MacBook-Pro:~ shengbin$ nslookup 192.168.3.101
-	Server:		192.168.0.1
-	Address:	192.168.0.1#53
+	Shengbins-MacBook-Pro:~ shengbin$ nslookup 10.9.26.121
+	Server:		10.8.60.5
+	Address:	10.8.60.5#53
 
-	101.3.168.192.in-addr.arpa	name = localhost.
+	121.26.9.10.in-addr.arpa	name = localhost.
 
-可以看出，得到的主机名正是localhost。我还试了所在局域网内的其他IP，进行反向DNS查询都会得到这个localhost主机名。
-这种没有区分度且毫无意义的结果是由比较傻的DNS服务器（即上面结果输出中的192.168.0.1，当然更可能是人做的配置比较傻）提供的。
+可以看出，得到的主机名正是localhost。我还试了所在局域网内的其他IP（例如10.9.26.122），进行反向DNS查询都会得到这个localhost主机名。
+这种没有区分度且毫无意义的结果是由比较傻的DNS服务器（即上面结果输出中的10.8.60.5；当然机器傻大多是因为人没配置好）提供的。
 严格来说，这种结果是错误的。因为内网IP在in-addr.arpa数据库里确实是没有条目的。
 下面我们指定用比较聪明的DNS服务器（Google的8.8.8.8）来查询，结果就是“未找到”，这才是正确的：
 
-	Shengbins-MacBook-Pro:~ shengbin$ nslookup 192.168.3.101 8.8.8.8
+	Shengbins-MacBook-Pro:~ shengbin$ nslookup 10.9.26.121 8.8.8.8
 	Server:		8.8.8.8
 	Address:	8.8.8.8#53
 
-	** server can't find 101.3.168.192.in-addr.arpa.: NXDOMAIN
+	** server can't find 121.26.9.10.in-addr.arpa.: NXDOMAIN
 
 在旧办公室应该就是返回了这样“未找到”的结果，所以确定主机名时就跳过了上面顺序中的第3项，采用了第4项，也正符合用户的预期。
 
@@ -63,10 +63,10 @@ tags: [OS X, Mac, DNS]
 ![](/images/2016-09-04-system-preferences-sharing.png)
 （_系统偏好设置->共享_）
 
-点击编辑按钮就可以修改“xxx.local”，这里面的xxx就是LocalHostName。顺便说一句，图中的Computer Name是可读性更好的计算机名称（允许空格等其他字符），
+点击编辑按钮就可以修改“xxx.local”，这里面的xxx就是LocalHostName。顺便说一句，图中的“Computer Name”是可读性更好的计算机名称（允许空格等其他字符），
 在preferences.plist文件里也有配置项（System ▸ System ▸ ComputerName），同样可以通过`scutil`来存取，不过它跟本文涉及的主机名没太大关系。
 
 因此，更好的方法是设法跳过第3项，从而让第4项生效。这需要使反向DNS查询能正确地对局域网内IP给出“未找到”这一结果。
 
 最佳途径自然是更改所接入网络的DNS服务器配置让它更聪明，这样可以惠及局域网内所有主机。
-如果这行不通（例如网络管理员觉得本文通篇都在胡扯），那只能独善其身，把自己电脑所用的DNS服务器换成更聪明的了（例如Google的8.8.8.8）。
+如果这行不通（例如联系不上网络管理员或者网络管理员觉得本文通篇都在胡扯），那只能独善其身，把自己电脑所用的DNS服务器换成更聪明的了（例如Google的8.8.8.8）。
