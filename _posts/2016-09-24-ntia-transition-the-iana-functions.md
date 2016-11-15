@@ -32,6 +32,8 @@ ICANN虽然不是政府部门，但它仍然在政府的合同约束下行使IAN
 这体现在NTIA[在合同中扮演的角色](https://www.icann.org/en/system/files/files/sac-068-en.pdf)：
 对于号码资源和协议参数相关的职能，NTIA只作为监督方；而对于域名根区管理，NTIA还是具体实施者，也就是说根区内容的任何变动都要由它授权。
 
-## NTIA决定退出
+## NTIA退出
 
-在这届合同将到期的时候，NTIA决定不再继续参与IANA职能的行使了。
+NTIA决定在这届合同到期（今年9月31日）之后，就不再继续参与IANA职能的行使了，要将其完全移交出去。
+
+关于这次移交的详细信息可以参见：<https://www.icann.org/stewardship>。
