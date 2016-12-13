@@ -1,4 +1,3 @@
-shengbinmeng.github.com
-=======================
+Shengbin's Blog.
 
-Let's blog!
+See <http://blog.shengbin.me/>.
