@@ -3,32 +3,31 @@ layout: page
 title: "Explore（浏览）"
 description: "Explore Shengbin's Blog"
 ---
-{% include JB/setup %}
 
 <h2>Posts By Category（按类别）</h2>
 <ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
+    {% for category in site.categories %} 
+    	<li><a href="{{ site.baseurl }}/categories#{{ category[0] }}"> {{ category[0] }} <span>{{ category[1].size }}</span></a></li>
+    {% endfor %}
 </ul>
 <br>
 <hr>
 
 <h2>Posts By Tag（按标签）</h2>
 <ul class="tag_box inline">
-  {% assign tags_list = site.tags %}
-  {% include JB/tags_list %}
+    {% for tag in site.tags %} 
+    	<li><a href="{{ site.baseurl }}/tags#{{ tag[0] }}">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
+    {% endfor %}
 </ul>
 <br>
 <hr>
 
 <h2>Pages On This Site（所有页面）</h2>
 <ul>
-<li><a href="/about">About（关于）</a></li>
-<li><a href="/archive">Archive（存档）</a></li>
-<li><a href="/explore">Explore（浏览）</a></li>
-<li><a href="/categories">Categories（分类）</a></li>
-<li><a href="/tags">Tags（标签）</a></li>
-<li><a href="/atom.xml">Atom Feed（Atom订阅）</a></li>
-<li><a href="/rss.xml">RSS Feed（RSS订阅）</a></li>
-<li><a href="/sitemap.txt">Sitemap（站点地图）</a></li> 	
+<li><a href="{{ site.baseurl }}/about">About（关于）</a></li>
+<li><a href="{{ site.baseurl }}/archive">Archive（存档）</a></li>
+<li><a href="{{ site.baseurl }}/explore">Explore（浏览）</a></li>
+<li><a href="{{ site.baseurl }}/categories">Categories（分类）</a></li>
+<li><a href="{{ site.baseurl }}/tags">Tags（标签）</a></li>
+<li><a href="{{ site.baseurl }}/rss.xml">RSS Feed（RSS订阅）</a></li>
 </ul>

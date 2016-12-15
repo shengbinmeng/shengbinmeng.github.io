@@ -1,5 +1,70 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/shengbin/post.html %}
+
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+</div>
+
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>{{ page.date | date_to_long_string }}</span>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+
+  {% unless page.categories == empty %}
+    <ul class="tag_box inline">
+      <li><i class="icon-folder-open"></i></li>
+      {% for category in page.categories %}
+      <li><a href="{{ site.baseurl }}/categories#{{ category }}">{{ category }} <span>{{ site.categories[category].size }}</span></a></li>
+      {% endfor %}
+    </ul>
+  {% endunless %}  
+
+  {% unless page.tags == empty %}
+    <ul class="tag_box inline">
+      <li><i class="icon-tags"></i></li>
+      {% for tag in page.tags %}
+      <li><a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
+      {% endfor %}
+    </ul>
+  {% endunless %}
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      {% if page.previous %}
+        <li class="prev"><a href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous（前一篇）</a></li>
+      {% else %}
+        <li class="prev disabled"><a>&larr; Previous（前一篇）</a></li>
+      {% endif %}
+        <li><a href="{{ site.baseurl }}/archive">Archive（目录）</a></li>
+      {% if page.next %}
+        <li class="next"><a href="{{ site.baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">Next（后一篇） &rarr;</a></li>
+      {% else %}
+        <li class="next disabled"><a>Next（后一篇） &rarr;</a></li>
+      {% endif %}
+      </ul>
+    </div>
+    <hr>
+    
+	<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ site.baseurl }}{{ page.url }}" data-author-key="shengbinmeng"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"blog-shengbin"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+    <!-- Duoshuo Comment END -->
+    
+  </div>
+</div>

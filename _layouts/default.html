@@ -1,6 +1,65 @@
----
-theme :
-  name : shengbin
----
-{% include JB/setup %}
-{% include themes/shengbin/default.html %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="author" content="{{ site.author_name }}">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="{{ site.baseurl }}/assets/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+	<link href="{{ site.baseurl }}/assets/syntax.css" rel="stylesheet" type="text/css" media="all">
+	
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/images/shengbin.png">
+
+    <!-- atom & rss feed -->
+    <link href="{{ site.baseurl }}/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-30081581-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+  <body>
+  
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+          <ul class="nav">
+            <li><a href="{{ site.baseurl }}/about">About / 关于</a></li>
+            <li><a href="{{ site.baseurl }}/archive">Archive / 存档</a></li>
+            <li><a href="{{ site.baseurl }}/explore">Explore / 浏览</a></li>
+            <li><a href="{{ site.baseurl }}/rss.xml" target="_blank">RSS / 订阅</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+      <div class="content">
+        {{ content }}
+      </div>
+      <hr>
+      <footer>
+        &copy; {{ site.time | date: '%Y' }} {{ site.author_name }}. Powered by <a href="http://jekyllrb.com" target="_blank" title="The simple, blog-aware, static site generator.">Jekyll</a>. Hosted on <a href="https://pages.github.com/" target="_blank" title="GitHub Pages">GitHub Pages</a>.
+        <br><br>
+      </footer>
+    </div>
+    
+  </body>
+</html>
