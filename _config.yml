@@ -24,8 +24,6 @@ github_username:  shengbinmeng
 author_name: Shengbin Meng
 
 # Build settings
-markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
   - jekyll-paginate
