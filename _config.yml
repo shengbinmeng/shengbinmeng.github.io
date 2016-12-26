@@ -25,7 +25,6 @@ author_name: Shengbin Meng
 
 # Build settings
 gems:
-  - jekyll-feed
   - jekyll-paginate
 exclude:
   - Gemfile
