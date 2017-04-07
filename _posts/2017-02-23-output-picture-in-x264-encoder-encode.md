@@ -70,21 +70,21 @@ static int write_picture_out(FILE *file, x264_picture_t *pic_out, int width, int
         }
     }
 
-    int cw = width / 2;
-    int ch = height / 2;
-    int chroma_size = cw * ch;
-    uint8_t *planeu = malloc(2 * (chroma_size + 32));
-    if (planeu == NULL) {
+    int uv_width = width / 2;
+    int uv_height = height / 2;
+    int chroma_size = uv_width * uv_height;
+    uint8_t *plane_u = malloc(2 * (chroma_size + 32));
+    if (plane_u == NULL) {
         return -1;
     }
 
-    uint8_t *planev = planeu + chroma_size + 32;
-    x264_plane_copy_deinterleave_c(planeu, cw, planev, cw, pic_out->img.plane[1], pic_out->img.i_stride[1], cw, ch);
+    uint8_t *plane_v = plane_u + chroma_size + 32;
+    x264_plane_copy_deinterleave_c(plane_u, uv_width, plane_v, uv_width, pic_out->img.plane[1], pic_out->img.i_stride[1], uv_width, uv_height);
 
-    fwrite(planeu, 1, chroma_size, file);
-    fwrite(planev, 1, chroma_size, file);
+    fwrite(plane_u, 1, chroma_size, file);
+    fwrite(plane_v, 1, chroma_size, file);
 
-    free(planeu);
+    free(plane_u);
     return 0;
 }
 ```
