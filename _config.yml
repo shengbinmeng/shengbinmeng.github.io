@@ -24,7 +24,7 @@ github_username:  shengbinmeng
 author_name: Shengbin Meng
 
 # Build settings
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
