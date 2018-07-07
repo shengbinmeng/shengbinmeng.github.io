@@ -17,7 +17,7 @@ title: Shengbin's Blog
 email: shengbinmeng@gmail.com
 description: Just write.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.shengbin.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.shengbin.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shengbinmeng
 github_username:  shengbinmeng
 author_name: Shengbin Meng
