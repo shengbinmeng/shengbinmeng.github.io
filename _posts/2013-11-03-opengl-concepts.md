@@ -7,7 +7,7 @@ tags: [编程, OpenGL]
 ---
 
 最近在做用[OpenGL](http://www.opengl.org/)显示YUV数据的工作。完成之后，决定将学到的东西整理总结一下。
-在探索OpenGL的过程中，[一篇英文的tutorial](http://db-in.com/blog/2011/01/all-about-opengl-es-2-x-part-13/)让我受益匪浅。
+在探索OpenGL的过程中，[一篇英文的tutorial](http://blog.db-in.com/all-about-opengl-es-2-x-part-1/)让我受益匪浅。
 我自己的总结也将主要取材于此。那篇tutorial的作者是个巴西人，其英文虽然语法不甚精湛，但文章可读性极好。
 如果你英文还可以，强烈推荐读原文，比我这总结有用多了。
 
