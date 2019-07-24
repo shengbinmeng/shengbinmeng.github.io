@@ -11,9 +11,4 @@ See <http://blog.shengbin.me/>.
 2. Generate and run:
 
 	`jekyll serve -w`
-	
-# Deploy
 
-Put the generated static site on any web server.
-
-Or using [GitHub Pages](https://pages.github.com/), just push changes to GitHub.
