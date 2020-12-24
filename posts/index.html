@@ -1,0 +1,10 @@
+---
+layout: page
+title : "All posts（全部文章）"
+---
+
+{% for post in site.posts  %}
+
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+{% endfor %}
