@@ -6,9 +6,7 @@ category: 学术
 tags: [信源编码, 率失真, 建模, Cauchy]
 ---
 
-<script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 大部分率失真建模的论文都是假设信源符合拉普拉斯分布（也就是广义高斯分布的一种）。
 论文[《Frame Bit Allocation for the H.264AVC Video Codec Via Cauchy-Density-Based Rate and Distortion Models》](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1490553&tag=1)
@@ -35,3 +33,5 @@ tags: [信源编码, 率失真, 建模, Cauchy]
 
 最终将上述率失真模型用于码率控制。码率控制算法目的是将一定量的比特数分配给若干帧，使得每一帧的画面质量（也就是失真）大致一样。
 有了R与D的准确关系，自然会取得很好的控制效果，从而得到很平滑的画面质量。
+
+*注：本篇博客使用了[MathJax](http://www.mathjax.org)，数学公式的渲染可能需要一定时间。如果公式显示不正常，可尝试刷新页面。*

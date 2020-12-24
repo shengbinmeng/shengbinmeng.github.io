@@ -6,14 +6,13 @@ category: 学术
 tags: [信源编码, 建模]
 ---
 
-<script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 对于视频编码，失真量化模型指得是失真与量化步长之间的关系。实际要解决的问题是如何准确估计在特定量化参数下的失真。
 如果用分析型的方法，就是在给定的信源分布和量化方法下推导失真关于量化参数的表达式。如果用经验型的方法，则需要收集大量实际失真与对应量化参数的数据，然后拟合出一个函数模型。
 
 <!--more-->
+
 论文[《A Novel Analytic Quantization-Distortion Model for Hybrid Video Coding》](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4801619&tag=1)采用分析型的方法，提出了一个量化失真模型。其创新性在于考虑了运动校正对失真的影响，大致思路如下。
 
 一个块的预测残差是该块的原始值减去上一帧的参考块的重建值。由于变换是线性的，因此残差变换后的系数也是同样的关系：
@@ -40,4 +39,4 @@ tags: [信源编码, 建模]
 
 由于考虑了运动估计，也就是引入了\\( I_k(q) \\)，上述失真模型比单独考虑残差量化的失真更准确。实验结果也说明了这一点。
 
-注：本篇博客使用了[MathJax](http://www.mathjax.org)，数学公式的渲染可能需要一定时间。如果公式显示不正常，可尝试刷新页面。
+*注：本篇博客使用了[MathJax](http://www.mathjax.org)，数学公式的渲染可能需要一定时间。如果公式显示不正常，可尝试刷新页面。*
