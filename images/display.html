@@ -1,0 +1,10 @@
+---
+layout: page
+title : "All Images"
+---
+
+{% assign image_files = site.static_files | where: "image", true %}
+{% for image in image_files reversed %}
+  <img src="{{ image.path }}" alt="{{ image.name }}">
+  <br><br>
+{% endfor %}

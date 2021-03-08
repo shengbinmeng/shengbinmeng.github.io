@@ -40,6 +40,11 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: "images"
+    values:
+      image: true
 
 paginate: 10
 excerpt_separator: <!--more-->

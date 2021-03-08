@@ -1,6 +1,11 @@
 ---
 layout: page
-title : "Images"
+title : "All Images（全部图片）"
 ---
 
-Glad to see you here!
+{% assign image_files = site.static_files | where: "image", true %}
+{% for image in image_files reversed %}
+  <li><a href="{{ image.path }}">{{ image.name }}</a></li>
+{% endfor %}
+
+<p><a href='display.html'>Click here</a> to display all the images in one page.
