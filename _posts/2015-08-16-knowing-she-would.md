@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 未名
+title: Norwegian wood
 date: 2015-08-16 12:00:00
 category: 生活
 tags: [记录]
-published: false
+published: true
 ---
 
 她在北京是为了考研，目标是北京外国语大学。第一年考试失利后，她决定再考一次。在深圳的男朋友要她去那边准备下次的考试。她离开北京之前，我们见了面。
