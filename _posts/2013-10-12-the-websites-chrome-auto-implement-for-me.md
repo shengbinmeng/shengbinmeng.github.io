@@ -10,7 +10,7 @@ tags: [Chrome, Web]
 下面的列表是我输入a-z每一个字母时，Chrome为我自动补全的网址。你的是什么呢？（即使你不用Chrome，其他浏览器也基本都支持自动补齐这个特性哦。）
 
 <!--more-->
-a: acssy.org //这个是我暑假帮人做的网站的网址（参见[这篇博文](http://blog.shengbin.me/posts/the-website-acssy.org/)），当时测试效果时每天刷新好多遍啊。
+a: acssy.org //这个是我暑假帮人做的网站的网址（参见[这篇博文](/posts/the-website-acssy.org/)），当时测试效果时每天刷新好多遍啊。
 
 b: baidu.com //搜索中文时还是习惯去百度
 

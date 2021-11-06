@@ -28,7 +28,7 @@ tags: [OS X, Matlab]
 	Trace/BPT trap: 5
 	
 这下就发现问题了：matlab程序试图加载X11的一个库却没找到。它以为X11在/usr目录下，但其实新版本的OS X系统已经不自带X11了，需要自己安装
-（参见我的另一篇博客：[《在OS X上编译ffmpeg和ffplay》](http://blog.shengbin.me/posts/build-ffmpeg-on-os-x/)），
+（参见我的另一篇博客：[《在OS X上编译ffmpeg和ffplay》](/posts/build-ffmpeg-on-os-x/)），
 而新安装的X11被放在了/opt/X11，无怪乎它找不到了。最简单的解决方法就是创建一个连接“/usr/X11”指向“/opt/X11”：
 
 	sudo ln -s /opt/X11/ /usr/X11

@@ -6,7 +6,7 @@ category: 技术
 tags: [iOS]
 ---
 
-之前换新的MacBook时写过[《我使用Mac电脑的必备应用》](http://blog.shengbin.me/posts/my-mac-apps/)。最新换了新的iPhone，顺便把自己常用的iOS应用也总结一下。
+之前换新的MacBook时写过[《我使用Mac电脑的必备应用》](/posts/my-mac-apps/)。最新换了新的iPhone，顺便把自己常用的iOS应用也总结一下。
 
 <!--more-->
 

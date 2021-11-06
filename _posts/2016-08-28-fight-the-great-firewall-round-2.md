@@ -59,7 +59,7 @@ L2TP类型的VPN需要将配置文件`/etc/ipsec.conf`、`/etc/ipsec.secrets`、
 
 ### 参考
 
-让我们一起翻墙：<http://blog.shengbin.me/posts/fight-the-great-firewall>
+让我们一起翻墙：<https://blog.shengbin.me/posts/fight-the-great-firewall>
 
 如何配置PPTP：<https://linux.cn/article-3376-1.html>
 

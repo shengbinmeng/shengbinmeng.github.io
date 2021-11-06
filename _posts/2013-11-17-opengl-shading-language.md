@@ -6,7 +6,7 @@ category: 技术
 tags: [编程, OpenGL]
 ---
 
-之前曾介绍过[OpenGL的基本概念](http://blog.shengbin.me/posts/opengl-concepts/)。本文介绍[OpenGL中的着色语言（Shading Language）](http://www.opengl.org/documentation/glsl/)。
+之前曾介绍过[OpenGL的基本概念](/posts/opengl-concepts/)。本文介绍[OpenGL中的着色语言（Shading Language）](http://www.opengl.org/documentation/glsl/)。
 
 <!--more-->
 

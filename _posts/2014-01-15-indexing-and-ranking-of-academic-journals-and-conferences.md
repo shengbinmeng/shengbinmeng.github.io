@@ -60,4 +60,4 @@ Engineering Index这个词在Wikipedia上被重定向到了[Compendex](http://en
 
 * 澳大利亚CORE排名：<http://core.edu.au/index.php/categories/journals>（期刊），<http://core.edu.au/index.php/categories/conference%20rankings>（会议）
 
-以上这三个排名也是北京大学计算机所《期刊和会议列表》里面确定刊会等级的依据。我刚被接收的[ICC论文](http://blog.shengbin.me/posts/another-paper-accepted)，就是根据澳大利亚CORE排名确定等级的。这个会议最近两年刚从A类降级为B类。
+以上这三个排名也是北京大学计算机所《期刊和会议列表》里面确定刊会等级的依据。我刚被接收的[ICC论文](/posts/another-paper-accepted)，就是根据澳大利亚CORE排名确定等级的。这个会议最近两年刚从A类降级为B类。
