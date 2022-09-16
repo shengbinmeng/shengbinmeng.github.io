@@ -5,7 +5,7 @@ category: 学术
 tags: [总结]
 ---
 
-我2016年博士[毕业](leaving-school)。之后的几年，[关于学术](about-academic)我就没什么投入和产出了。
+我2016年博士[毕业](/posts/leaving-school)。之后的几年，[关于学术](/posts/about-academic)我就没什么投入和产出了。
 
 <!--more-->
 
