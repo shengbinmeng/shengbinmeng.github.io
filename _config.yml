@@ -48,3 +48,6 @@ defaults:
 
 paginate: 10
 excerpt_separator: <!--more-->
+feed:
+  excerpt_only: false
+  posts_limit: 12
