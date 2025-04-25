@@ -3,7 +3,7 @@ title: 旅伴 X
 date: 2022-08-28 13:00:00
 category: 生活
 tags: [回忆,旅行]
-published: false
+published: true
 ---
 
 X是我在征集自驾游同行者的时候认识的。
