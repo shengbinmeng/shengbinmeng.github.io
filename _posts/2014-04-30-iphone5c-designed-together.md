@@ -10,7 +10,7 @@ tags: [Apple, iOS, 视频, 设计]
 
 <!--more-->
 
-<video width="700" height="396" src="http://shengbin-static.stor.sinaapp.com/iphone5c-designed-together.mp4" 
+<video width="700" height="396" src="https://github.com/shengbin/storage/raw/refs/heads/main/iphone5c-designed-together.mp4" 
 type="video/mp4" preload="auto" controls="controls">
 Your browser does not support the video tag.
 </video>

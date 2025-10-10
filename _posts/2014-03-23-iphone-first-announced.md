@@ -12,7 +12,7 @@ tags: [视频, iPhone, Apple]
 
 <!--more-->
 
-<video width="640" height="360" src="http://shengbin-static.stor.sinaapp.com/iphone-first-announced.mp4" 
+<video width="640" height="360" src="https://github.com/shengbin/storage/raw/refs/heads/main/iphone-first-announced.mp4" 
 type="video/mp4" preload="auto" controls="controls">
 Your browser does not support the video tag.
 </video>

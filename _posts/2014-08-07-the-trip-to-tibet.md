@@ -47,7 +47,7 @@ tags: [旅行]
 
 啥都不说了，用一首歌吧。请点击下面的播放按钮。
 
-<audio src="http://shengbin-static.stor.sinaapp.com/yi-ge-xi-zang.mp3" type="audio/mpeg" 
+<audio src="https://github.com/shengbin/storage/raw/refs/heads/main/yi-ge-xi-zang.mp3" type="audio/mpeg" 
         preload="auto" controls="controls" loop="loop">
 我去，你的浏览器竟然不支持HTML5？！赶紧去下个[真正的浏览器](https://www.google.com/intl/en/chrome/browser/)吧。
 </audio>

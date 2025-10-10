@@ -12,7 +12,7 @@ tags: [论文,视频]
 由于疫情影响，ICME2021改为了虚拟会议。
 论文的展示采用提前录制视频的形式，这倒是第一次遇见。下面是我准备的讲演视频，感兴趣的可以点击观看。
 
-<video width="640" height="360" src="http://shengbin-static.stor.sinaapp.com/icme-presentation.mp4"
+<video width="640" height="360" src="https://github.com/shengbin/storage/raw/refs/heads/main/icme-presentation.mp4"
 type="video/mp4" preload="auto" controls="controls">
 Your browser does not support the video tag.
 </video>

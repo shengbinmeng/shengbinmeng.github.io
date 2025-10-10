@@ -36,7 +36,7 @@ tags: [毕业, 求职, 想法, 华为]
 
 > 还记得年少时的梦吗，像朵永远不凋零的花。——《爱的代价》
 
-<audio src="http://shengbin-static.stor.sinaapp.com/ai-de-dai-jia.mp3" type="audio/mpeg" 
+<audio src="https://github.com/shengbin/storage/raw/refs/heads/main/ai-de-dai-jia.mp3" type="audio/mpeg" 
         preload="auto" controls="controls" loop="loop">
 我去，你的浏览器竟然不支持HTML5？！赶紧去下个[真正的浏览器](https://www.google.com/intl/en/chrome/browser/)吧。
 </audio>

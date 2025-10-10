@@ -9,7 +9,7 @@ tags: [歌, 股票]
 
 <!--more-->
 
-<audio src="http://shengbin-static.stor.sinaapp.com/gu-min-lao-zhang.mp3" type="audio/mpeg" 
+<audio src="https://github.com/shengbin/storage/raw/refs/heads/main/gu-min-lao-zhang.mp3" type="audio/mpeg" 
         preload="auto" autoplay="autoplay" controls="controls" loop="loop">
 我去，你的浏览器竟然不支持HTML5？！赶紧去下个新版的吧。
 </audio>

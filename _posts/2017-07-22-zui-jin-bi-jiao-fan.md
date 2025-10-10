@@ -9,7 +9,7 @@ tags: [歌, 视频]
 
 <!--more-->
 
-<audio src="http://shengbin-static.stor.sinaapp.com/zui-jin-bi-jiao-fan.mp3" type="audio/mpeg" 
+<audio src="https://github.com/shengbin/storage/raw/refs/heads/main/zui-jin-bi-jiao-fan.mp3" type="audio/mpeg" 
         preload="auto" autoplay="autoplay" controls="controls" loop="loop">
 我去，你的浏览器竟然不支持HTML5？！赶紧去下个[真正的浏览器](https://www.google.com/intl/en/chrome/browser/)吧。
 </audio>
@@ -90,7 +90,7 @@ tags: [歌, 视频]
 	
 这首歌的MV也是很精彩：
 
-<video width="700" height="540" src="http://shengbin-static.stor.sinaapp.com/zui-jin-bi-jiao-fan-mv.mp4" 
+<video width="700" height="540" src="https://github.com/shengbin/storage/raw/refs/heads/main/zui-jin-bi-jiao-fan-mv.mp4" 
 type="video/mp4" preload="auto" controls="controls">
 Your browser does not support the video tag.
 </video>

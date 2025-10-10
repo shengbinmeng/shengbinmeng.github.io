@@ -11,7 +11,7 @@ tags: [娃, 视频]
 
 下面是一个逗娃的视频，父子俩啊啊咿咿，乐此不疲。
 
-<video width="360" height="640" src="http://shengbin-static.stor.sinaapp.com/play-with-baby.mp4" 
+<video width="360" height="640" src="https://github.com/shengbin/storage/raw/refs/heads/main/play-with-baby.mp4" 
 type="video/mp4" preload="auto" controls="controls">
 Your browser does not support the video tag.
 </video>

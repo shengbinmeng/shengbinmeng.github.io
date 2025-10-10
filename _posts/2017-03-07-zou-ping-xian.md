@@ -9,7 +9,7 @@ tags: [歌, 编程, C/C++]
 
 <!--more-->
 
-<audio src="http://shengbin-static.stor.sinaapp.com/zou-ping-xian.mp3" type="audio/mpeg" 
+<audio src="https://github.com/shengbin/storage/raw/refs/heads/main/zou-ping-xian.mp3" type="audio/mpeg" 
         preload="auto" autoplay="autoplay" controls="controls" loop="loop">
 我去，你的浏览器竟然不支持HTML5？！赶紧去下个[真正的浏览器](https://www.google.com/intl/en/chrome/browser/)吧。
 </audio>

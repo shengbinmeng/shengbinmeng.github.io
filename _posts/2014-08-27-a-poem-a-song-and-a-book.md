@@ -31,7 +31,7 @@ tags: [诗词, 歌, 书]
 
 歌的名字叫《大花轿》，反映了令人欣赏和羡慕的一对男女。点击下面的播放按钮，来听一听吧：
 
-<audio src="http://shengbin-static.stor.sinaapp.com/da-hua-jiao.mp3" type="audio/mpeg" 
+<audio src="https://github.com/shengbin/storage/raw/refs/heads/main/da-hua-jiao.mp3" type="audio/mpeg" 
         preload="auto" controls="controls" loop="loop">
 我去，你的浏览器竟然不支持HTML5？！赶紧去下个[真正的浏览器](https://www.google.com/intl/en/chrome/browser/)吧。
 </audio>
